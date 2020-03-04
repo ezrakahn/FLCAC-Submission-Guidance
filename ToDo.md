@@ -6,76 +6,76 @@ Overall:
 
 
 
-*   Reorganize document to the following sections:
-    *   What is the LCA Commons
-    *   Who can publish
-    *   What can be published
-    *   How to publish data
-        *   roles, responsibilities, expectations
-        *   workflows
-    *   Detailed metadata guidance
-*   Identify intended audience and revise context
-*   Tighten up descriptions, remove capacity and decision making type explanations
+- [ ]   Reorganize document to the following sections:
+   - [ ]  What is the LCA Commons
+   - [ ]  Who can publish
+   - [ ]  What can be published
+   - [ ]  How to publish data
+       - [ ]   roles, responsibilities, expectations
+       - [ ]  workflows
+   - [ ]  Detailed metadata guidance
+- [ ]  Identify intended audience and revise context
+- [ ]   Tighten up descriptions, remove capacity and decision making type explanations
 
 Specific Todos:
 
 
 
-*   Revise Glossary
-    *   Sections for LCA Commons specific concepts, people / roles
-*   Update logo
-*   Update the Preface benefits (proposed content added)
-*   DOI workflow and documentation
-*   Global parameter guidance
-*   Elementary flow guidance / TRACI guidance
-*   Starter database workflow (include set of geographic locations?)
-*   Document basic publication workflow for major use cases (contributor role)
-    *   Collection policy statement
-        *   For LCA Commons
-        *   For individual repositories[^1]
+- [ ]   Revise Glossary
+   - [ ]   Sections for LCA Commons specific concepts, people / roles
+- [x]   Update logo
+- [ ]   Update the Preface benefits (proposed content added)
+- [ ]   DOI workflow and documentation
+- [ ]   Global parameter guidance
+- [ ]   Elementary flow guidance / TRACI guidance
+- [ ]   Starter database workflow (include set of geographic locations?)
+- [ ]   Document basic publication workflow for major use cases (contributor role)
+    - [ ]   Collection policy statement
+        - [ ]   For LCA Commons
+        - [ ]   For individual repositories[^1]
 
 
-    *   Identify roles and responsibilities
-    *   Describe expected use cases
-    *   Describe workflow for each use case
-*   Collaboration Server How-To. (Rebe already wrote this)
-    *   Include strong recommendation to make all mods while connected and synced to a repo
-*   Define repository naming syntax (tie into repository metadata work, perhaps push to next version)
-*   Eliminate current repo abstracts and replace with repo metadata conventions
-    *   Add “collection policy” for repositories (or reference to separate collection policy statement for commons)
-*   Update names published repositories
+    - [ ]   Identify roles and responsibilities
+    - [x]   Describe expected use cases
+    - [x]   Describe workflow for each use case
+- [ ]   Collaboration Server How-To. (Rebe already wrote this)
+    - [ ]   Include strong recommendation to make all mods while connected and synced to a repo
+- [ ]   Define repository naming syntax (tie into repository metadata work, perhaps push to next version)
+- [ ]   Eliminate current repo abstracts and replace with repo metadata conventions
+    - [ ]   Add “collection policy” for repositories (or reference to separate collection policy statement for commons)
+- [ ]   Update names published repositories
 
-        Federal_LCA_Commons (verify no one is fetching from these before deleting)
+Federal_LCA_Commons (verify no one is fetching from these before deleting)
 
-        *   elementary_flow_list
-        *   Fed_Commons_Core_Database
+- [ ]   elementary_flow_list
+- [x]   Fed_Commons_Core_Database
 
-        U_Wasington_Design_for_Environment_Laboratory
+U_Wasington_Design_for_Environment_Laboratory
 
-        *   Field_Crop_Production
+- [x]   Field_Crop_Production
 
-        U_Washington_Biofuels_Biroproducts_Lab
+U_Washington_Biofuels_Biroproducts_Lab
 
-        *   UWAviationFuel
+- [x]   UWAviationFuel
 
-        National_Energy_Technology_Lab
+National_Energy_Technology_Lab
 
-        *   coal_extraction (update in progress, wait until complete to revise naming)
+- [x]   coal_extraction (update in progress, wait until complete to revise naming)
 
-        NC_State_Dept_Forest_Biomaterials
+NC_State_Dept_Forest_Biomaterials
 
-        *   kraft_pulp
+- [x]   kraft_pulp
 
-        US_Forest_Service_Forest_Products_Lab
+US_Forest_Service_Forest_Products_Lab
 
-        *   FPL_LCI
-*   Update convention on quantitative reference naming
-*   Update convention on geographic location fields for both processes and add for tech flows (adjust guidance text sections accordingly)
-*   Insert reference and link to Fed Commons toolbox (create on GitHub?)
-    *   Database QA/QC SQL and Python scripts for olca
-    *   Other generic SQL and Python scripts for olca
-    *   Links to other resources
-    *   Other?
+- [x]   FPL_LCI
+- [ ]  Update convention on quantitative reference naming
+- [ ]   Update convention on geographic location fields for both processes and add for tech flows (adjust guidance text sections accordingly)
+- [ ]   Insert reference and link to Fed Commons toolbox (create on GitHub?)
+    - [ ]   Database QA/QC SQL and Python scripts for olca
+    - [ ]   Other generic SQL and Python scripts for olca
+    - [ ]   Links to other resources
+    - [ ]   Other?
 
 
 
