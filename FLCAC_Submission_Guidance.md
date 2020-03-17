@@ -747,6 +747,9 @@ Once the agency has developed data for the FLCAC:
 
   - **Format Data**: use these Submission Guidelines to format the
     preliminary LCI data in openLCA, including data quality if elected
+    
+  - **Map Elementary Flows to FEDEFL**: Use the instructions found on the [<span class="underline">FEDEFL wiki</span>](https://github.com/USEPA/Federal-LCA-Commons-Elementary-Flow-List/wiki) to map the
+    openLCA database to existing FEDEFL flows   
 
   - **Obtain FLCAC Server Account**: If not yet an existing account
     user, the FLCAC Platform Administrator will set up the FLCAC
