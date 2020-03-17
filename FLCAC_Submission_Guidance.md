@@ -91,6 +91,8 @@ EPD Environmental Product Declaration
 
 FAA Federal Aviation Administration
 
+FEDEFL Federal Elementary Flow List
+
 FHWA Federal Highway Administration
 
 FLCAC Federal Life Cycle Assessment Commons
@@ -900,13 +902,11 @@ with impact characterization factors. Hence, they serve a critical role
 in LCA modeling and are essential in achieving LCA data
 interoperability.
 
-The US EPA has developed a master elementary Flow List, which is
-available in.csv and openLCA schema JSON-LD formats, and is accompanied
-by a mapping file. The current release version is available via the
-FLCAC portal. The conversion tool will convert flows already using an
-established Flow List in a standard openLCA format to the Flow List
-format. Please see the US EPA Flow List Guide for instructions on
-obtaining and interpreting the Flow List.
+The US EPA has developed a master elementary Flow List ([the FEDEFL](https://github.com/USEPA/Federal-LCA-Commons-Elementary-Flow-List)), which is
+available in CSV and openLCA schema JSON-LD formats, and provides resources to help with mappings. The current release version is available via the
+FLCAC portal. The ([the FEDEFL wiki](https://github.com/USEPA/Federal-LCA-Commons-Elementary-Flow-List/wiki))
+provides guidance on converting an established Flow List in a standard openLCA format to FEDEFL
+flows. Please see the US EPA report, [The Federal LCA Commons Elementary Flow List: Background, Approach, Description and Recommendations for Use](https://cfpub.epa.gov/si/si_public_record_report.cfm?dirEntryId=347251&Lab=NRMRL&simpleSearch=0&showCriteria=2&searchAll=elementary+flows&TIMSType=Published+Report&dateBeginPublishedPresented=07%2F31%2F2019) for more information regarding the Flow List requirements and nomenclature.
 
 Elementary flow names must correspond directly to the impact method used
 in the LCIA. This protocol assures users that your dataset can connect
