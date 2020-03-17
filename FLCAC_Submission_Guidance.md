@@ -550,7 +550,7 @@ EPA Flow List for elementary flow categorization and the North American
 Industry Classification System (NAICS) 2 digit/4 digit classification
 scheme for categorizing intermediate processes and technosphere flows
 (see:
-[<span class="underline">https://www.census.gov/cgi-bin/sssd/naics/</span>](https://www.census.gov/cgi-bin/sssd/naics/)).
+[<span class="underline">https://www.census.gov/eos/www/naics/</span>](https://www.census.gov/eos/www/naics/)).
 Please ensure that your datasets are submitted using this format and
 reflect the latest NAICS updates, which occur roughly every three to
 four years.
