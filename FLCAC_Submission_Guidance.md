@@ -541,7 +541,7 @@ Detailed guidance on process and technosphere flow nomenclature is
 provided in Table 1. General Information Field Conventions and Appendix
 D:ILCD Nomenclature Rules.
 
-Categorization
+#### Categorization
 
 Datasets from different databases with disparate categorization schemes
 can prevent connectivity, cause duplications and/or confusion among
@@ -555,7 +555,7 @@ Please ensure that your datasets are submitted using this format and
 reflect the latest NAICS updates, which occur roughly every three to
 four years.
 
-For guidance on using the EPA Elementary Flow List, see:
+For guidance on using the EPA Elementary Flow List, see: [<span class="underline">https://github.com/USEPA/Federal-LCA-Commons-Elementary-Flow-List/wiki</span>](https://github.com/USEPA/Federal-LCA-Commons-Elementary-Flow-List/wiki)
 
 ### Data Quality Scheme
 
