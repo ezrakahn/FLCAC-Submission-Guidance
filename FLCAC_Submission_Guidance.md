@@ -91,6 +91,8 @@ EPD Environmental Product Declaration
 
 FAA Federal Aviation Administration
 
+FEDEFL Federal Elementary Flow List
+
 FHWA Federal Highway Administration
 
 FLCAC Federal Life Cycle Assessment Commons
@@ -541,7 +543,7 @@ Detailed guidance on process and technosphere flow nomenclature is
 provided in Table 1. General Information Field Conventions and Appendix
 D:ILCD Nomenclature Rules.
 
-Categorization
+#### Categorization
 
 Datasets from different databases with disparate categorization schemes
 can prevent connectivity, cause duplications and/or confusion among
@@ -550,12 +552,12 @@ EPA Flow List for elementary flow categorization and the North American
 Industry Classification System (NAICS) 2 digit/4 digit classification
 scheme for categorizing intermediate processes and technosphere flows
 (see:
-[<span class="underline">https://www.census.gov/cgi-bin/sssd/naics/</span>](https://www.census.gov/cgi-bin/sssd/naics/)).
+[<span class="underline">https://www.census.gov/eos/www/naics/</span>](https://www.census.gov/eos/www/naics/)).
 Please ensure that your datasets are submitted using this format and
 reflect the latest NAICS updates, which occur roughly every three to
 four years.
 
-For guidance on using the EPA Elementary Flow List, see:
+For guidance on using the EPA Elementary Flow List, see: [<span class="underline">https://github.com/USEPA/Federal-LCA-Commons-Elementary-Flow-List/wiki</span>](https://github.com/USEPA/Federal-LCA-Commons-Elementary-Flow-List/wiki)
 
 ### Data Quality Scheme
 
@@ -747,6 +749,9 @@ Once the agency has developed data for the FLCAC:
 
   - **Format Data**: use these Submission Guidelines to format the
     preliminary LCI data in openLCA, including data quality if elected
+    
+  - **Map Elementary Flows to FEDEFL**: Use the instructions found on the [FEDEFL wiki](https://github.com/USEPA/Federal-LCA-Commons-Elementary-Flow-List/wiki) to map the
+    openLCA database to existing FEDEFL flows   
 
   - **Obtain FLCAC Server Account**: If not yet an existing account
     user, the FLCAC Platform Administrator will set up the FLCAC
@@ -897,13 +902,11 @@ with impact characterization factors. Hence, they serve a critical role
 in LCA modeling and are essential in achieving LCA data
 interoperability.
 
-The US EPA has developed a master elementary Flow List, which is
-available in.csv and openLCA schema JSON-LD formats, and is accompanied
-by a mapping file. The current release version is available via the
-FLCAC portal. The conversion tool will convert flows already using an
-established Flow List in a standard openLCA format to the Flow List
-format. Please see the US EPA Flow List Guide for instructions on
-obtaining and interpreting the Flow List.
+The US EPA has developed a master elementary Flow List ([the FEDEFL](https://github.com/USEPA/Federal-LCA-Commons-Elementary-Flow-List)), which is
+available in CSV and openLCA schema JSON-LD formats, and provides resources to help with mappings. The current release version is available via the
+FLCAC portal. The ([the FEDEFL wiki](https://github.com/USEPA/Federal-LCA-Commons-Elementary-Flow-List/wiki))
+provides guidance on converting an established Flow List in a standard openLCA format to FEDEFL
+flows. Please see the US EPA report, [The Federal LCA Commons Elementary Flow List: Background, Approach, Description and Recommendations for Use](https://cfpub.epa.gov/si/si_public_record_report.cfm?dirEntryId=347251&Lab=NRMRL&simpleSearch=0&showCriteria=2&searchAll=elementary+flows&TIMSType=Published+Report&dateBeginPublishedPresented=07%2F31%2F2019) for more information regarding the Flow List requirements and nomenclature.
 
 Elementary flow names must correspond directly to the impact method used
 in the LCIA. This protocol assures users that your dataset can connect
