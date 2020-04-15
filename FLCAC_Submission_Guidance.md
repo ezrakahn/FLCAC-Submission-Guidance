@@ -539,16 +539,19 @@ Processes from other databases should not be submitted as datasets.
 
 ### Nomenclature
 
-Detailed guidance on process and technosphere flow nomenclature is
-provided in Table 1. General Information Field Conventions and Appendix
-D:ILCD Nomenclature Rules.
+Detailed guidance on process and flow nomenclature is
+provided in Table 1. General Information Field Conventions. Elementary Flow nomenclature specific guidance can be found in Appendix: D FEDEFL Nomenclature Rules, while guidance on Technosphere Flow and Process nomenclature can be found in Appendix:E ILCD Nomenclature Rules.
 
 #### Categorization
 
 Datasets from different databases with disparate categorization schemes
 can prevent connectivity, cause duplications and/or confusion among
-users, and result in a bulky database. Therefore, FLCAC has adopted the
-EPA Flow List for elementary flow categorization and the North American
+users, and result in a bulky database. Flows are categorized as either elementary or technosphere flows.
+
+Therefore, FLCAC has adopted the
+EPA Flow List for elementary flow categorization. Elementary flows are further classified into eight classes as described in Appendix D: Rule 4 The classification of elementary flows allows for a more systematic approach to the creation of the FEDEFL.
+ 
+Technosphere flows and intermediate processes are further classified using the North American
 Industry Classification System (NAICS) 2 digit/4 digit classification
 scheme for categorizing intermediate processes and technosphere flows
 (see:
@@ -557,8 +560,7 @@ Please ensure that your datasets are submitted using this format and
 reflect the latest NAICS updates, which occur roughly every three to
 four years.
 
-For guidance on using the EPA Elementary Flow List, see: [<span class="underline">https://github.com/USEPA/Federal-LCA-Commons-Elementary-Flow-List/wiki</span>](https://github.com/USEPA/Federal-LCA-Commons-Elementary-Flow-List/wiki)
-
+Additional guidance for using the EPA Elementary Flow list can be found on the FEDEFL [<span class="underline">github repository wiki page](https://github.com/USEPA/Federal-LCA-Commons-Elementary-Flow-List/wiki) or the [<span class="underline">FEDEFL guidance document](https://cfpub.epa.gov/si/si_public_record_report.cfm?Lab=NRMRL&dirEntryId=341199). Additional guidance on the ILCD nomenclature for technosphere and process nomenclature can be located in the [<span class="underline">ILCD Handbook</span>](http://eplca.jrc.ec.europa.eu/uploads/MANPROJ-PR-ILCD-Handbook-Nomenclature-and-other-conventions-first-edition-ISBN-fin-v1.0-E.pdf)
 ### Data Quality Scheme
 
 Within openLCA, the only data quality scheme available by default is
@@ -882,8 +884,8 @@ the original. For example, the comment for the modified ecoinvent®
 process “carbon dioxide liquid, at plant/RER U” might read: ‘adapted to
 reflect US average electricity grid.’
 
-Detailed guidance on process and flow nomenclature is provided in Table
-1. General Information Field Conventions and Appendix D:ILCD
+Detailed guidance on process and technosphere flow nomenclature is provided in Table
+1. General Information Field Conventions and Appendix E:ILCD
 Nomenclature Rules. A technosphere flow that is not being submitted as a
 dataset and is not already in the FLCAC should be categorized in the
 Technosphere Flows\\‘CUTOFF’ folder or a reasonable proxy from the FLCAC
@@ -1900,13 +1902,35 @@ The process includes three sub-processes: Quarry Operations; Transport and Plant
 </tr>
 <tr class="odd">
 <td>(A) Flow</td>
-<td>Flow name based on the <strong>ILCD Naming Convention</strong> (see General Information, Name Field Conventions). For general elementary flow conventions, see Rules 2-9/18 and for general product/process flow names, see Rules 12-17 of <span class="underline">Appendix D: ILCD Nomenclature Rules</span>. See the <span class="underline">full <a href="http://eplca.jrc.ec.europa.eu/uploads/MANPROJ-PR-ILCD-Handbook-Nomenclature-and-other-conventions-first-edition-ISBN-fin-v1.0-E.pdf">ILCD Handbook</a></span> for detailed conventions</td>
-<td><em>EPS virgin resin manufacture; batch suspension polymerization; industry average, at plant</em></td>
+<td>
+<strong>Elementary Flows:</strong>
+
+Elementary flows should be named based on the <strong> FEDEFL nomenclature guidelines</strong>.For general elementary flow and see Rules 1-14 of <span class="underline">Appendix D: FEDEFL Nomenclature Rules</span>. See the <span class="underline">full <a href="https://cfpub.epa.gov/si/si_public_record_report.cfm?Lab=NRMRL&dirEntryId=341199">FEDEFL Guidance</a></span> for detailed conventions.
+
+<strong>Technosphere Flows:</strong>
+
+Flow name based on the <strong>ILCD Naming Convention</strong> (see General Information, Name Field Conventions). For general technosphere flow and for general product/process flow names, see Rules 1-19 of <span class="underline">Appendix E: ILCD Nomenclature Rules</span>. See the <span class="underline">full <a href="http://eplca.jrc.ec.europa.eu/uploads/MANPROJ-PR-ILCD-Handbook-Nomenclature-and-other-conventions-first-edition-ISBN-fin-v1.0-E.pdf">ILCD Handbook</a></span> for detailed conventions</td>
+<td><em>
+<strong>Elementary Flow</strong>
+
+
+'Element or Compound' 
+
+Cyclohexanemethylamine, Emission/Air
+
+'Biological'
+
+Hardwood, Resource/Biotic
+
+<strong>Technosphere Flow</strong>
+
+EPS virgin resin manufacture; batch suspension polymerization; industry average, at plant</em></td>
 </tr>
 <tr class="even">
 <td>(A) Category</td>
-<td>Flow category based on the <strong>FLCAC Categorization Convention</strong> (see General Information, Name Field Conventions)</td>
-<td><em>31-33: Manufacturing/3252: Resin, Synthetic Rubber, and Artificial Synthetic Fibers and Filaments Manufacturing</em></td>
+<td>Flow category as elementary flow or detailed technosphere flow categorization based on the <strong>FLCAC Categorization Convention</strong> (see General Information, Name Field Conventions)</td>
+<td><em><strong>Technosphere Flow</strong>
+31-33: Manufacturing/3252: Resin, Synthetic Rubber, and Artificial Synthetic Fibers and Filaments Manufacturing</em></td>
 </tr>
 <tr class="odd">
 <td><em><strong><span class="smallcaps">Table M-2. Inputs Field Conventions, cont.</span></strong></em></td>
@@ -1989,13 +2013,28 @@ Conventions</span>***
 </tr>
 <tr class="odd">
 <td>(A) Flow</td>
-<td>Flow name based on the <strong>ILDC Naming Convention</strong> (see General Information, Name Field Conventions). For general elementary flow conventions, see Rules 2-9/18 and for general product/process flow names, see Rules 12-17 of <span class="underline">Appendix D: ILCD Nomenclature Rules</span>. See the <span class="underline">full <a href="http://eplca.jrc.ec.europa.eu/uploads/MANPROJ-PR-ILCD-Handbook-Nomenclature-and-other-conventions-first-edition-ISBN-fin-v1.0-E.pdf">ILCD Handbook</a></span> for detailed conventions</td>
-<td><em>Scanner; Kodak Alaris i940 desktop scanner; Global supply chain; 1 unit, 1.55 kg</em></td>
+<td><strong>Elementary Flows:</strong>
+
+Elementary flows should be named based on the <strong> FEDEFL nomenclature guidelines</strong>.For general elementary flow and see Rules 1-14 of <span class="underline">Appendix D: FEDEFL Nomenclature Rules</span>. See the <span class="underline">full <a href="https://cfpub.epa.gov/si/si_public_record_report.cfm?Lab=NRMRL&dirEntryId=341199">FEDEFL Guidance</a></span> for detailed conventions.
+
+<strong>Technosphere Flows:</strong>
+
+Flow name based on the <strong>ILCD Naming Convention</strong> (see General Information, Name Field Conventions). For general technosphere flow and for general product/process flow names, see Rules 1-19 of <span class="underline">Appendix E: ILCD Nomenclature Rules</span>. See the <span class="underline">full <a href="http://eplca.jrc.ec.europa.eu/uploads/MANPROJ-PR-ILCD-Handbook-Nomenclature-and-other-conventions-first-edition-ISBN-fin-v1.0-E.pdf">ILCD Handbook</a></span> for detailed conventions</td>
+<td><em><strong>Elementary Flows:</strong>
+
+'Groups of Chemicals'
+Particulate matter,≤ 10μm,Emission/Air
+
+<strong>Technosphere Flows:</strong>
+
+Scanner; Kodak Alaris i940 desktop scanner; Global supply chain; 1 unit, 1.55 kg</em></td>
 </tr>
 <tr class="even">
 <td>(A) Category</td>
-<td>Flow category based on the <strong>FLCAC Categorization Convention</strong> (see General Information, Name Field Conventions)</td>
-<td><em>31-33: Manufacturing/3341: Computer and Peripheral Equipment Manufacturing</em></td>
+<td>Flow category as elementary flow or detailed technosphere flow categorization based on the <strong>FLCAC Categorization Convention</strong> (see General Information, Name Field Conventions)</td>
+<td><strong>Technosphere Flow</strong>
+
+31-33: Manufacturing/3341: Computer and Peripheral Equipment Manufacturing</em></td>
 </tr>
 <tr class="odd">
 <td>(M) Amount</td>
@@ -2856,11 +2895,441 @@ express Statement of Purpose.
     party to this document and has no duty or obligation with respect to
     this CC0 or use of the Work.
 
-# ILCD Nomenclature Rules
+# FEDEFL Nomenclature Rules
 
+> All rules paraphrased from the ***The Federal LCA Commons Elementary Flow List: Background, Approach, Description and Recommendations for Use***. For the complete versions of the report with details and examples, please access the guidance at:
+> <span class="underline"><https://cfpub.epa.gov/si/si_public_record_Report.cfm?dirEntryId=347251&Lab=NRMRL>.</span>
+
+#### <span class="smallcaps">Rule 1: A flow must consist of a ***Flowable*** + ***Context*** + ***Unit***</span>
+
+> *(Mandatory for both technical and non-technical target audience)*
+>
+>1. ***Flowable*** - The name of the material, energy, or space (e.g., “Carbon dioxide” or “Water, fresh”) that comes from or goes to the biosphere. This is commonly called “substance” or “flow name” but this term is too limited and the term “flowable” from the Earthster Core Ontology (ECO) is used in the FEDEFL report and in the FEDEFL (McBride & Norris, 2010). 
+>2. ***Context*** - A set of environmental media/compartments that describe the flow origin or destination (e.g., “Air”). Although the term compartment is sometimes used in LCA, the FEDEFL uses the term context to provide a broader meaning that includes the directionality (e.g. “resource” from biosphere or “emission” to biosphere), environmental media (e.g. “Air”, “Water”, “Ground” and “Biotic”), and additional context information that is further described in Section 3.3 of the FEDEFL report. It is mandatory that a flow have a primary context (directionality + environmental media).
+>3. ***Unit*** - Flow units may be associated with conversion factors that can be used to convert between different units within a flow property (e.g., kg to lbs.) or even between flow properties (e.g., kg to m^3). 
+
+
+#### <span class="smallcaps">Rule 2: Elementary flow primary contexts</span>
+
+> *(Mandatory for both technical and non-technical target audience)*
+> 
+> Contexts are listed by directionality (Resource/Emission) and environmental media (Air,Ground,Water,Biotic)
+> 
+> **Resources**
+>
+> Resource, Ground
+> 
+> Resource, Water
+> 
+> Resource, Air
+> 
+> Resources, Biotic
+>
+>**Emissions**
+> 
+> Emissions, Ground
+> 
+> Emissions, Water
+> 
+> Emissions, Air
+
+
+#### <span class="smallcaps">Rule 3: Environmental media based on phase (e.g. solid, liquid, gas, biosphere)</span>
+
+> *(Mandatory for technical target audience, recommended for non-technical target audience)*
+> 
+> The FEDEFL distinguishes between the environmental media and the vertical strata creating a flow context. 
+
+>For example, a resource flow from a groundwater well would have conventionally had ‘ground’ as the media. However, ground more accurately describes the vertical strata from which the resource is extracted, while the environmental media from which the resource is flowing is water. Therefore, in the FEDEFL the terms air, water and ground refer to the media, while another compartment class is used to describe the vertical strata. This is the first time these two compartment classes are used to clarify the difference between environmental media and vertical strata. It is important to note that for emission, the environmental media reflects the media the flow is going to and that for resources it is the media from which a resource originated. 
+
+>The biotic media is used to describe the living media which some material flows from, such as the flow of wood from trees (e.g. Hardwood, Resource/Biotic).
+
+
+#### <span class="smallcaps">Rule 4: Classifying elementary flows (Eight class system)</span>
+
+> *(Mandatory for technical target audience, recommended for
+> non-technical target audience)*
+> 
+> It is recommended that users utilize the eight-classification system as seen below to classify all elementary flows. Usage of the flow classification system helps improve the structure used to organize flows. Flow classes are a way to group EFs by their flowable type. Classes may have sets of contexts and units that distinguish them from flows in other classes.
+<table>
+<tbody>
+<tr class="odd">
+<td><strong>Flow Class</strong></td>
+<td><strong>Input/Output</strong></td>
+<td><strong>Definition</strong></td>
+<td><strong>Default flow units</strong></td>
+<td><strong>Example FLowable(s)</strong></td>
+</tr>
+<tr class="even">
+<td><strong>Element or Compound</strong></td>
+<td>Both</td>
+<td>A unique chemical element or compound</td>
+<td>kg</td>
+<td><em>1,1,2,2-Tetrachloethane</em></td>
+</tr>
+<tr class="odd">
+<td><strong>Groups of Chemicals</strong></td>
+<td>Both</td>
+<td>A group or mixture of chemicals</td>
+<td>kg</td>
+<td><em>Volatile organic compounds</em></td>
+</tr>
+<tr class="even">
+<td><strong>Geological</strong></td>
+<td>Both</td>
+<td>A mineral or metal in an ore or aggregate material extracted for use or refining</td>
+<td>MJ or kg</td>
+<td><em>Anthracite</em></td>
+</tr>
+<tr class="odd">
+<td><strong>Biological</strong></td>
+<td>Both</td>
+<td>Input:Biomass or organic matter
+
+>
+Output: biological matter (e.g. microorganisms, mites and pollen) </td>
+<td>kg</td>
+<td>Input
+
+>
+<em>Hardwood</em>
+
+>
+Output
+>
+
+<em>Bacillus Subtilis</em></td>
+</tr>
+<tr class="even">
+<td><strong>Land Use</strong></td>
+<td>Input</td>
+<td>Land types</td>
+<td>area*time</td>
+<td><em>Forest</em></td>
+</tr>
+<tr class="odd">
+<td><strong>Water</strong></td>
+<td>Both</td>
+<td>Water</td>
+<td>kg</td>
+<td><em>Water, fresh</em></td>
+</tr>
+<tr class="even">
+<td><strong>Energy</strong></td>
+<td>Both</td>
+<td>Energy input NOT associated with consumed materials
+
+>
+Energy output in the form of heat</td>
+<td>MJ</td>
+<td>Input
+
+>
+<em>Energy, Geothermal</em>
+
+>
+Output
+>
+<em> Energy, heat</em></td>
+</tr>
+<tr class="odd">
+<td><strong>Other</strong></td>
+<td>Both</td>
+<td>None of the above. May include water quality parameters.</td>
+<td></td>
+<td><em>Biological Oxygen Demand</em></td>
+</tr>
+</tbody>
+</table>
+
+#### <span class="smallcaps">Rule 5: Further differentiation context information (secondary context information)</span>
+
+> *(Recommended for technical target audience, recommended for
+> non-technical target audience)*
+
+
+
+> Secondary context information provides further details. Not all secondary context information applies to each of the flow classes Below is a complete list of all combinations of primary and secondary flow context: 
+*(It is recommended that users use the appropriate context with as much specificity as possible)*
+#####Emissions
+######Air
+>*emission/air
+>emission/air/indoor
+>emission/air/stratosphere
+>emission/air/subterranean
+>emission/air/troposphere/ground-level
+>emission/air/troposphere/high
+>emission/air/troposphere/low
+>emission/air/troposphere/rural
+>emission/air/troposphere/rural/ground-level
+>emission/air/troposphere/rural/high
+>emission/air/troposphere/rural/low
+emission/air/troposphere/urban
+>emission/air/troposphere/urban/ground-level
+>emission/air/troposphere/urban/high
+>emission/air/troposphere/urban/low
+>emission/air/troposphere/very high*
+######Ground
+>*emission/ground
+>emission/ground/human-dominated
+>emission/ground/human-dominated/agricultural
+>emission/ground/human-dominated/agricultural/rural
+>emission/ground/human-dominated/agricultural/urban
+>emission/ground/human-dominated/commercial
+>emission/ground/human-dominated/commercial/urban
+>emission/ground/human-dominated/commercial/rural
+>emission/ground/human-dominated/industrial
+>emission/ground/human-dominated/industrial/rural
+>emission/ground/human-dominated/industrial/urban
+>emission/ground/human-dominated/residential
+>emission/ground/human-dominated/residential/rural
+>emission/ground/human-dominated/residential/urban
+>emission/ground/subterranean
+>emission/ground/terrestrial/barren land
+>emission/ground/terrestrial/forest
+>emission/ground/terrestrial/grassland
+>emission/ground/terrestrial/shurbland
+>emission/ground/terrestrial/snow and ice
+>emission/ground/terrestrial/wetland*
+######Water
+>emission/water
+>emission/water/brackish water body
+>emission/water/brackish water body/lake
+>emission/water/brackish water body/lake/rural
+>emission/water/brackish water body/lake/urban
+>emission/water/fresh water body
+>emission/water/fresh water body/lake
+>emission/water/fresh water body/lake/rural
+>emission/water/fresh water body/lake/urban
+>emission/water/fresh water body/river
+>emission/water/fresh water body/urban
+>emission/water/saline water body
+>emission/water/saline water body/ ocean
+>emission/water/subterranean
+>emission/water/subterranean/brackish water body
+>emission/water/subterranean/brackish water body/confined aquifer
+>emission/water/subterranean/brackish water body/unconfined aquifer
+>emission/water/subterranean/fresh water body
+>emission/water/subterranean/fresh water body/confined aquifer
+>emission/water/subterranean/fresh water body/ unconfined aquifer
+>emission/water/subterranean/saline water body
+>emission/water/subterranean/saline water body/ confined aquifer
+>emission/water/subterranean/saline water body/unconfined aquifer*
+#####Resources
+######Air
+>*resource/air
+>resource/air/subterranean
+>resource/air/troposphere*
+######Biotic
+>*resource/biotic*
+######Ground
+>*resource/ground
+>resource/ground/human-dominated
+>resource/ground/human-dominated/agricultural
+>resource/ground/human-dominated/agricultural/rural
+>resource/ground/human-dominated/agricultural/urban
+>resource/ground/human-dominated/commercial
+>resource/ground/human-dominated/commercial/rural
+>resource/ground/human-dominated/commercial/urban
+>resource/ground/human-dominated/residential
+>resource/ground/human-dominated/residential/rural
+>resource/ground/human-dominated/residential/urban
+>resource/ground/human-dominated/rural
+>resource/ground/human-dominated/urban
+>resource/ground/subterranean
+>resource/ground/terrestrial/barren land
+>resource/ground/terrestrial/forest
+>resource/ground/terrestrial/grassland
+>resource/ground/terrestrial/shrubland
+>resource/ground/terrestrial/snow and ice
+>resource/ground/terrestrial/wetland*
+######Water
+>*resource/water
+>resource/water/brackish water body
+>resource/water/brackish water body/lake
+>resource/water/brackish water body/lake/rural
+>resource/water/brackish water body/lake/urban
+>resource/water/fresh water body
+>resource/water/fresh water body/lake
+>resource/water/fresh water body/lake/rural
+>resource/water/fresh water body/lake/urban
+>resource/water/saline water body
+>resource/water/saline water body/ocean
+>resource/water/subterranean
+>resource/water/subterranean/brackish water body
+>resource/water/subterranean/brackish water body/confined aquifer
+>resource/water/subterranean/brackish water body/unconfined aquifer
+>resource/water/subterranean/fresh water body
+>resource/water/subterranean/fresh water body/confined aquifer
+>resource/water/subterranean/fresh water body/unconfined aquifer
+>resource/water/subterranean/saline water body
+>resource/water/subterranean/saline water body/confined aquifer
+>resource/water/subterranean/saline water body/unconfined aquifer*
+
+#### <span class="smallcaps">Rule 6: Alternative units</span>
+
+> *(Mandatory for technical target audience, recommended for
+> non-technical target audience)*
+
+#### 
+
+
+
+> Some flows can be used with different units, e.g. radioactive chemicals can use the ‘kg’ or ‘kBq’ units. In instances where multiple units are possible, one unit is set as the FEDEFL default unit and other units are considered alternative units. All flows with an alternative unit exist within the AltUnit files on github by flow class (pictured below)
+![](./media/image45.png)
+>Alternate units exist using a conversion factor between the different unit types. For each alternate unit there is a single default conversion factor. When mapping flows from an existing source to the FEDEFL users may input their own conversion factors.
+ 
+####Example
+>When converting flow names from an existing source, if the source contains conversion factors in the name (e.g. “Hard coal; 32.7 MJ/kg” and the units do not match the default units in the FEDEFL then users should use 32.7 MJ/kg as a conversion factor in the mapping file. However, there is no need to input a conversion factor in the mapping file when the units match the default units in FEDEFL.
+
+#### <span class="smallcaps">Rule 7: Geological ‘fuel’ flows, how to use alternative units and account for energy losses</span>
+
+> *(Mandatory for technical target audience, recommended for
+> non-technical target audience: additional)*
+> 
+> In general, when creating flows to represent the extraction of raw resources that the name of the raw material being extracted be used. For raw material that are used to produce energy (e.g. fuels), it is important to note that in the FEDEFL there exists default conversion factors (higher heating values (HHV)) to convert the ‘kg’ of raw resource into an energy content. The FEDEFL conversion factors should represent the HHV for the raw material, as this is the correct conversion factor.  Users <strong>should</strong> apply a 5-10% increase in their Cumulative Energy Demand (CED) during refining to address the energy loss from the raw material to the refined material for all non-renewable fuels. 
+> 
+
+#### <span class="smallcaps">Rule 8: Minerals, Metals and ores</span>
+
+> *(Mandatory for technical target audience, recommended for
+> non-technical target audience)*
+> 
+> When modeling geological flows, the raw resource, or mineral names should be used as the elementary flow flowable. The reason for this recommendation is that this method requires users to track flows through the technosphere transformations to create the metals that are used during manufacturing. When mining metals, gangue or excess rock and non-valuable products as well as trace elements/metals are part of the initial raw resource extraction process. By modeling the raw material mineral, users can account for these by-products in the refining process. 
+However, in some instances this is not possible as users may not know this information. Therefore, metals as raw resources are still included in the ‘Geological’ flow class. Users should be careful when using these flows that they account for the raw material losses from extraction through refining. It is recommended that users apply 5-10% loss of material during refining.
+
+> 
+#### <span class="smallcaps">Rule 9: Land Use</span>
+
+> *(Recommended for both technical and non-technical target audience)*
+> 
+>Land transformations should NOT be modeled as flows. Transformations are an activity and should be modeled as a process with land inputs. Only land occupations are flows elementary flows and are named based on the land types. All land occupation should have units of area*time. Any land flows that do not have such units are not in compliance with FEDEFL nomenclature.  
+#### 
+
+#### <span class="smallcaps">Rule 10: Identifying and Formatting ‘Element or Compound’s and ‘Groups of Chemicals’</span>
+
+> *(Mandatory for technical target audience, recommended for
+> non-technical target audience)*
+> 
+> All ‘Element or Compound’s and ‘Groups of Chemicals’ are identified using the US EPA Substance Registry Services (SRS) and US EPA Chemistry Dashboard databases. No ‘Element or Compound’ or ‘Groups of Chemicals’ flowables may be added to the FEDEFL without some type of identification found in either of the two databases. At this time formatting of the ‘Element or Compound’ and ‘Groups of Chemicals’ flowables reflects the formatting found in SRS and Chemistry dashboard. 
+
+Ions
+>Ions should be named using the following nomenclature using the numerical numbers to identify the ion. Below are some examples of the appropriate nomenclature for ions.
+
+>*Examples*:
+>
+>Chromium(IV), Vanadium(V), Barium(II), Tin(II)
+
+Radioactive elements
+>
+>Radioactive elements should include the numerical value of the isotope. 
+
+>*Examples*:
+Antimony-125, Radon-222
+
+>Abbreviations should be avoided. 
+>
+>
+>Naming of chemicals in combination should be avoided. When mapping it is better to estimate the conversion factor for each chemical and name a chemical as individual chemicals rather than by group or in combination, to improve the connection between LCI data and LCIA characterization factors. 
+
+<table>
+<tbody>
+<tr class="odd">
+<td><strong>Recommended FEDEFL nomenclature</strong></td>
+<td><strong>Other nomenclature *(not recommended)*</strong></td>
+</tr>
+<tr class="even">
+<td>Hydrochlorocarbons
+
+>
+Hydrofluorochlorocarbons</td>
+<td>Hydrochlorocarbons and Hydrofluorochlorocarbons</td>
+</tr>
+<tr class="odd">
+<td>Dioxins
+
+>
+Furans</td>
+<td>Dioxins and Furans</td>
+</tr>
+</tbody>
+</table>
+
+#### 
+
+#### <span class="smallcaps">Rule 11: Water flows</span>
+
+> *(Recommended for technical target audience, recommended for
+> non-technical target audience)*
+> 
+#####Assigning fresh, brackish and saline 
+>Whenever possible, users should include the salinity of water flowables. The FEDEFL does include the generic term Water for use when mapping sources that do not specify the salinity and use the context information to capture additional information such as water body type and environmental media. 
+<table>
+<tbody>
+<tr class="odd">
+<td><strong>Example Water Flowable</strong></td>
+<td><strong>FEDEFL Flowable</strong></td>
+<td><strong>FEDEFL context</strong></td>
+</tr>
+<tr class="even">
+<td>Rainwater</td>
+<td>Water,fresh</td>
+<td>resource/water*</td>
+</tr>
+<tr class="odd">
+<td>Water, ocean</td>
+<td>Water, saline</td>
+<td>resource/water/saline water body/ocean</td>
+</tr>
+<tr class="even">
+<td>Water emission to freshwater lake</td>
+<td>Water**</td>
+<td>emission/water/fresh water body/lake</td>
+</tr>
+</tbody>
+</table>
+
+*Comments on rainwater
+**When the original source flow does not provide enough detail; the genaric term, in this case 'Water' can be used when naming the flow even though this is not a preferred FEDEFL term.
+
+#####Water qualtiy parameters
+>Water quality parameters like Chemical/Biological Oxygen Demand are classified under the ‘Other’ elementary flow class. Additional quality parameters like pH are measured using the flowable ‘Hydrogen ion’ found in the ‘Element or Compound’ flow class. 
+#### <span class="smallcaps">Rule 12: Location specific data</span>
+
+> *(Recommended for both technical and non-technical target audience)*
+>
+>There is no need to include locations in the naming of flowables since this information can be captured as part of the exchange metadata. An exchange is defined as a flowable used in a process with specific situational metadata included to describe the flowable.
+#####Example:
+>When a ‘Particulate Matter, <2.5µm’ flowable is used in process to describe the total particulate matter in ‘kg’ emissions to air from coal power plant in Kentucky, USA from January 1, 2019 – December 31, 2019. The flowable takes on the additional context information of an emission to air and units ‘kg’ to become a unique flow. The additional metadata of being from a specific process (e.g. coal power plant) at a specific location (e.g. Kentucky, USA) from a specific time period (e.g. 2019) to become an exchange. The additional location, time period and process are not part of the FEDEFL nomenclature, but additional metadata to describe the use of this flowable.
+
+#### <span class="smallcaps">Rule 13: “Biogenic and fossil gases (e.g. methane and carbon dioxide) ” field</span>
+
+> *(Recommended for technical target audience, recommended for
+> non-technical target audience)*
+> 
+>The FEDEFL nomenclature is founded on the principle that flowables are unique substances. Therefore, when dealing with biogenic or fossil gases the flowables it is recommended not to include these terms. Biogenic carbon dioxide is chemically identical to carbon dioxide and therefore <strong>NOT</strong> a unique substance. 
+
+>Currently, naming gases as biogenic is used as a modelling and accounting workaround for LCA. Since the FEDEFL recommends that users do not distinguish biogenic gases, the FEDEFL recommends the following method for ensuring that biogenic gases are accounted for correctly.   A basic rule is to have the gas (e.g. Carbon dioxide) with the context resource/air.  Flows used to account for any uptake be included in a process in the supply chain, to then add a -1 CF to the GHG LCIA method for this flow to account for this uptake which will canceling out the “biogenic CO2” emission. 
+#### 
+
+#### <span class="smallcaps">Rule 14: End-of-life waste </span>
+
+> *(Recommended for technical target audience, recommended for
+> non-technical target audience)*
+> 
+>End-of-life waste flows
+
+>While end-of-life waste flows are techniquely flows back to the biosphere, they are classified differently than elementary flows and not included in the FEDEFL. Whenever possible, it is recommended that waste be characterized by the 'Element or Compound' or 'Groups of Chemicals' so that flows can be characterized in LCIA methods. When specifics are not possible, it is recommended that users use the ILCD format for waste flows in naming End of life waste. In OpenLCA, waste flows are maintained in a separate folder.
+
+#####
+># ILCD Nomenclature Rules
+
+#####It is recommended by the FLCAC to use the ILCD nomenclature rules when creating technosphere and process flow names.
+
+>
 > All rules paraphrased from the ***International Reference Life Cycle
 > Data (ILCD) System Handbook on Nomenclature and other Conventions***,
-> First edition 2010. EUR 24384 EN. For the complete versions of each
+> First edition 2010. EUR 24384 EN and apply to technosphere and process flow naming convetions only. For the complete versions of each
 > rule with details and examples, please access the handbook at:
 > <span class="underline"><http://eplca.jrc.ec.europa.eu/uploads/MANPROJ-PR-ILCD-Handbook-Nomenclature-and-other-conventions-first-edition-ISBN-fin-v1.0-E.pdf>.</span>
 
@@ -2869,229 +3338,8 @@ express Statement of Purpose.
 > All deliverables shall meet all the ‘mandatory’ rules; ‘recommended’
 > rules are optional
 
-#### <span class="smallcaps">Rule 2: Elementary flow categories</span>
 
-> *(Mandatory for both technical and non-technical target audience)*
-> 
-> Categories are listed by receiving/providing environmental compartment
-> 
-> Resources - Resources from ground
-> 
-> Resources - Resources from water
-> 
-> Resources - Resources from air
-> 
-> Resources – Resources from biosphere
-> 
-> Land use – Land transformation
-> 
-> Land use – Land occupation
-> 
-> Emissions – Emissions to air - Emissions to air, unspecified
-> 
-> Emissions – Emissions to air - Emissions to air, unspecified
-> (long-term)
-> 
-> Emissions – Emissions to air - Emissions to urban air close to ground
-> 
-> Emissions – Emissions to air - Emissions to non-urban air or from high
-> stacks
-> 
-> Emissions – Emissions to air - Emissions to lower stratosphere and
-> upper troposphere
-> 
-> Emissions – Emissions to water - Emissions to water, unspecified
-> 
-> Emissions – Emissions to water - Emissions to water, unspecified
-> (long-term)
-> 
-> Emissions – Emissions to water - Emissions to fresh water
-> 
-> Emissions – Emissions to water - Emissions to sea water
-> 
-> Emissions – Emissions to soil - Emissions to soil, unspecified
-> 
-> Emissions – Emissions to soil - Emissions to agricultural soil
-> 
-> Emissions – Emissions to soil - Emissions to non-agricultural soil
-> 
-> Emissions – Emissions to soil - Emissions to soil, unspecified
-> (long-term)
-> 
-> Other elementary flows
-> 
-> Note: ‘Long-term’ refers to emissions occurring \> 100 years into the
-> future (e.g., from waste deposits).
-
-#### <span class="smallcaps">Rule 3: Splitting emissions to brackish water</span>
-
-> *(Recommended for both technical and non-technical target audience)*
-> 
-> Designates that emissions into brackish water be split 50/50 for share
-> to seawater and freshwater
-
-#### <span class="smallcaps">Rule 4: Further differentiation of providing/receiving environmental compartment</span>
-
-> *(Mandatory for technical target audience, recommended for
-> non-technical target audience)*
-> 
-> Specifies three approaches further differentiation of compartments:
-
-1.  > None (most commonly used)
-
-2.  > Receiving environment subcompartments (e.g., ‘emissions to
-    > groundwater’) or emission-situation/site-type (e.g., emissions to
-    > indoor air’) used by few database developers
-
-3.  > Differentiation per country or region resource enters technosphere
-    > (e.g., ‘Crude oil from Libya’), elementary flows occur as
-    > emissions (e.g., ‘emissions to air, Spain’) or categorically, into
-    > subcompartments (e.g., ‘emissions to deep groundwater’)
-
-#### <span class="smallcaps">Rule 5: Additional, non-identifying classification for "Resources from ground" elementary flows:</span>
-
-> *(Mandatory for technical target audience, recommended for
-> non-technical target audience)*
-
-#### 
-
-#### *Example flows shown in brackets; a flow with no example is probably not used actively*
-
-> Non-renewable material resources from ground” (e.g. "Sand,"
-> "Anhydrite; 100%," etc.)
-> 
-> Non-renewable element resources from ground” (e.g. "Gold," "Copper,"
-> etc.)
-> 
-> Non-renewable energy resources from ground” (e.g. "Hard coal; 32.7
-> MJ/kg net calorific value", "Uranium; natural isotope mix; 451,000
-> MJ/kg," etc.)
-> 
-> Renewable element resources from ground” (e.g. "Radon," etc.)
-> 
-> Renewable energy resources from ground” (e.g. "Wind energy," "Water
-> energy; running," etc.)
-> 
-> Renewable material resources from ground"
-> 
-> Renewable resources from ground, unspecified” (flows not fitting into
-> any other categories)
-> 
-> Non-renewable resources from ground, unspecified” (flows not fitting
-> into any other categories)
-
-#### <span class="smallcaps">Rule 6: Additional, non-identifying classification of "Resources from water" elementary flows</span>
-
-> *(Mandatory for technical target audience, recommended for
-> non-technical target audience)*
-
-#### 
-
-#### *Example flows shown in brackets; a flow with no example is probably not used actively*
-
-> “Non-renewable element resources from water” (e.g. Magnesium, Bromium,
-> Hydrogen etc.)
-> 
-> “Non-renewable material resources from water”
-> 
-> “Non-renewable energy resources from water”
-> 
-> “Renewable element resources from water”
-> 
-> “Renewable material resources from water” (e.g. "Groundwater, etc.)
-> 
-> “Renewable energy resources from water” (e.g. "Hydro energy; running,"
-> “Tidal energy,” etc.)
-> 
-> “Renewable resources from water, unspecified” (flows not fitting into
-> any other categories)
-> 
-> “Non-renewable resources from water, unspecified” (flows not fitting
-> into any other categories)
-
-#### <span class="smallcaps">Rule 7: Non-identifying classification of "Resources from air" elementary flows</span>
-
-> *(Mandatory for technical target audience, recommended for
-> non-technical target audience: additional)*
-> 
-> Example flows shown in brackets; a flow with no example is probably
-> not used actively
-> 
-> “Non-renewable material resources from air”
-> 
-> “Non-renewable element resources from air”
-> 
-> “Non-renewable energy resources from air”
-> 
-> “Renewable element resources from air” (e.g. "Oxygen," "Argon," etc.)
-> 
-> “Renewable energy resources from air” (e.g. Wind energy, solar energy,
-> etc.)
-> 
-> "Renewable material resources from air"
-> 
-> “Renewable resources from air, unspecified” (flows not fitting into
-> any other categories)
-> 
-> “Non-renewable resources from air, unspecified” (flows not fitting
-> into any other categories)
-
-#### <span class="smallcaps">Rule 8: Additional, non-identifying classification of resource elementary flows for "Resources from biosphere" class</span>
-
-> *(Mandatory for technical target audience, recommended for
-> non-technical target audience)*
-> 
-> Example flows for use as sub-classification for the "Resources from
-> biosphere" top class shown in brackets; a flow class with no example
-> is probably not used actively
-> 
-> "Renewable genetic resources from biosphere" (for extraction/hunting
-> of wild species e.g. “Mahogany wood (Tectona grandis), without bark;
-> standing; primary forest”)
-> 
-> "Renewable material resources from biosphere" (e.g. “Round soft wood;
-> 50% H<sub>2</sub>O”)
-> 
-> “Renewable energy resources from biosphere" (e.g. "Wood biomass; 50%
-> H<sub>2</sub>O, 7.2 MJ/kg”)
-> 
-> “Renewable element resources from biosphere”
-> 
-> “Renewable resources from biosphere, unspecified” (flows not fitting
-> into any other categories)
-
-#### <span class="smallcaps">Rule 9: Additional, non-identifying classification for emissions</span>
-
-> *(Recommended for both technical and non-technical target audience)*
-> 
-> Examples in brackets showing the application of the nomenclature
-> 
-> “Metal and semimetal elements and ions” (e.g., "Arsenic," "Cadmium,"
-> "Chromium, III," etc.)
-> 
-> “Nonmetallic or -semimetallic ions” (e.g. "Ammonium," "Phosphate,"
-> etc.)
-> 
-> “Inorganic covalent compounds” (e.g. "Carbon dioxide, fossil," "Carbon
-> monoxide," "Sulfur dioxide," "Ammonia," etc.)
-> 
-> “Cyclic organics” (e.g. "Hexachloro-benzene," "Cyclopentane,"
-> "Naphthalene," etc.)
-> 
-> “Acyclic organics” (e.g. "Ethene," "3-methyl-1-butene,"
-> "1,2-chloro-pentane" etc.)
-> 
-> “Pesticides” (e.g. "Chlorfenvinphos," "Tributyl-tin" etc.)
-> 
-> “Radioactives” (e.g. "Cesium-137," "Radon-220," etc.)
-> 
-> “Particles” (e.g. "PM \<2.5μm," "PM 2.5-10μm," etc.)
-> 
-> "Other substance type"
-
-#### 
-
-#### <span class="smallcaps">Rule 10: Top-level classification for Product flows, Waste flows, and Processes</span>
+#### <span class="smallcaps">Rule 2: Top-level classification for Product flows, Waste flows, and Processes</span>
 
 > *(Mandatory for technical target audience, recommended for
 > non-technical target audience)*
@@ -3112,7 +3360,7 @@ express Statement of Purpose.
 
 #### 
 
-#### <span class="smallcaps">Rule 11: Second level classifications for Product flows, Waste flows, and Processes</span>
+#### <span class="smallcaps">Rule 3: Second level classifications for Product flows, Waste flows, and Processes</span>
 
 > *(Mandatory for technical target audience, recommended for
 > non-technical target audience)*
@@ -3268,7 +3516,7 @@ express Statement of Purpose.
 > 
 > "Other services"
 
-#### <span class="smallcaps">Rule 12: General flow and process naming rules</span>
+#### <span class="smallcaps">Rule 4: General flow and process naming rules</span>
 
 > *(Recommended for both technical and non-technical target audience)*
 
@@ -3291,7 +3539,7 @@ express Statement of Purpose.
 > Note: the entries among the four separate name component fields are
 > separated by the character ";."
 
-#### <span class="smallcaps">Rule 13: “Base name” field</span>
+#### <span class="smallcaps">Rule 5: “Base name” field</span>
 
 > *(Mandatory for technical target audience, recommended for
 > non-technical target audience)*
@@ -3310,7 +3558,7 @@ express Statement of Purpose.
 
 #### 
 
-#### <span class="smallcaps">Rule 14: “Treatment, standards, routes” name field</span>
+#### <span class="smallcaps">Rule 6: “Treatment, standards, routes” name field</span>
 
 > *(Mandatory for technical target audience, recommended for
 > non-technical target audience)*
@@ -3353,7 +3601,7 @@ express Statement of Purpose.
 
 #### 
 
-#### <span class="smallcaps">Rule 15: “Mix type and location type” name field</span>
+#### <span class="smallcaps">Rule 7: “Mix type and location type” name field</span>
 
 > *(Mandatory for technical target audience, recommended for
 > non-technical target audience)*
@@ -3365,7 +3613,7 @@ express Statement of Purpose.
 
 #### 
 
-#### <span class="smallcaps">Rule 16: “Quantitative flow properties” name field</span>
+#### <span class="smallcaps">Rule 8: “Quantitative flow properties” name field</span>
 
 > *(Mandatory for technical target audience, recommended for
 > non-technical target audience)*
@@ -3387,7 +3635,7 @@ express Statement of Purpose.
 > interim products or e.g. "13.5% ethanol by volume" for wine. Any
 > ambiguity should be avoided, of course.
 
-#### <span class="smallcaps">Rule 17: Naming pattern of flows and processes.</span>
+#### <span class="smallcaps">Rule 9: Naming pattern of flows and processes.</span>
 
 > *(Mandatory for technical target audience, recommended for
 > non-technical target audience)*
@@ -3397,101 +3645,9 @@ express Statement of Purpose.
 
 #### 
 
-#### <span class="smallcaps">Rule 18: Naming of elementary flows</span>
-
-> *(Mandatory for technical target audience, recommended for
-> non-technical target audience)*
-> 
-> Examples shown in brackets, in certain cases compared to the former
-> SETAC recommendation:
-
-  - > Substances and materials should be given a lower case first
-    > letter. Brand names should be given a upper case first letter
-    > (E.g. "benzene," "1,2,3-trichloro-benzene," "Alachlor").
-
-  - > Isotopes of elements (e.g. used for radioactive substances) are
-    > given the International Union of Pure and Applied Chemistry
-    > (IUPAC) name plus the isotope number added at the end with a
-    > hyphen (e.g. "radon-220").
-
-  - > Particles are to be inventoried via the widely used and understood
-    > abbreviation "PM," with further specification of the particle size
-    > class (e.g. "PM \<2.5μm" or "PM unspecified.")
-
-  - > Salts of O-containing acids are to be named according to the
-    > commonly used trivial names as also supported by IUPAC (e.g.
-    > “calcium carbonate” better than the name derived from applying
-    > the SETAC WG rule, which results in “carbonic acid, calcium
-    > salt”).
-
-  - > Other simple chemicals are to be named according to the commonly
-    > used trivial names, if widely used (e.g. "methane," "sulfuric
-    > acid," "acetone," etc.).
-
-  - > Pesticides should be named by their commonly used trivial or even
-    > brand names when commonly used as trivial names across industry
-    > (e.g. "Alachlor" better than
-    > "2-chloro-n-(2,6-diethylphenyl)-n-(methoxymethyl)-acetamide").
-
-  - > Artificial splitting of fixed technical terms with change of order
-    > of the name fragments is to be avoided (e.g. "hard coal" better
-    > than “coal, hard;” the complete flow name should comprise
-    > quantitative flow properties information, e.g. "hard coal; 32.7
-    > MJ/kg net calorific value," of course).
-
-  - > The attributes of flows "to" for emissions and "in" for resources
-    > as foreseen in the SETAC Working Group document are redundant, as
-    > this information is already given by the class the flow belongs to
-    > (e.g. "Emissions to air"), as this is part of the elementary flow
-    > identifying information. For the sake of shortening the flow names
-    > this info is not be doubled in the flow name.
-
-  - > The “…, ion” variants of metal emissions are to be joined with the
-    > elemental flow, with the exception of chromium (e.g. the flow
-    > “iron” to water should represent all variants, i.e. Fe III, Fe
-    > II, organically bound or ionic or complexed iron and metallic Fe
-    > to water; note that NO "ion" information is inn the name.). The
-    > only exception are the commonly used flows “chromium III” and
-    > “chromium VI” ions, while a joint flow “chromium, unspecified”
-    > is required, too, that one joining also metallic chromium. (To be
-    > revised in view of further developed LCIA methods.)
-
-  - > Substituted organics are to be named applying the former IUPAC
-    > recommendation, that was in place until the late 1990s and is
-    > still widely preferred in industry practice (e.g.
-    > “1,2,3-trichloro-benzene“ better than the new IUPAC pattern that
-    > was recommended by the SETAC WG\[8\] “benzene, 1,2,3-trichloro-“).
-
-  - > Chlorofluorocarbons (CFCs) and hydrochlorofluorocarbons (HCFCs)
-    > are to be named using their trivial name. The full chemical name
-    > is to be given in the “Synonyms” field only (e.g. “HFC-227” as
-    > flow name with the chemical name
-    > "1,1,1,2,3,3,3-heptafluoro-propane" only in the "Synonyms" field).
-
-  - > Carbon dioxide and methane are to be separately inventoried
-    > whether from biogenic or fossil sources, both as emission and
-    > resource (the latter e.g. from uptake into biomass); the source is
-    > added at the end of the base name separated by a comma. (E.g.
-    > "carbon dioxide, fossil," "methane, biogenic").
-
-  - > A clearer specification is required for certain flows, e.g. “Wood”
-    > from primary forests, as it is unclear whether it refers to the
-    > wood only or the whole tree; extracted is however often the tree
-    > as a whole (e.g. better “Mahogany wood (Tectona grandis), without
-    > bark; standing; primary forest” instead of “wood, Mahogany,
-    > standing.” In case the bark would be extracted as well as often
-    > done in primary forests, an additional flow of “other wood
-    > biomass” would be inventoried).
-
-  - > Last but not least: Naming is always to be unambiguous; e.g.
-    > better “ferrous chloride” or “iron II chloride” instead of the
-    > formerly SETAC recommended “iron chloride,” while in this case it
-    > is recommended to inventory this emission as the two elementary
-    > flows “iron” and “chloride” anyway.
-
 #### 
 
-#### <span class="smallcaps">Rule 19: Naming of product and waste flows</span>
+#### <span class="smallcaps">Rule 10: Naming of product and waste flows</span>
 
 > *(Recommended for both technical and non-technical target audience)*
 > 
@@ -3504,7 +3660,7 @@ express Statement of Purpose.
 
 #### 
 
-#### <span class="smallcaps">Rule 20: Naming of processes</span>
+#### <span class="smallcaps">Rule 11: Naming of processes</span>
 
 > *(Recommended for both technical and non-technical target audience)*
 
@@ -3526,7 +3682,7 @@ express Statement of Purpose.
 
 #### 
 
-#### <span class="smallcaps">Rule 21: Classification for flow properties</span>
+#### <span class="smallcaps">Rule 12: Classification for flow properties</span>
 
 > *(Mandatory for technical target audience, recommended for
 > non-technical target audience)*
@@ -3544,7 +3700,7 @@ express Statement of Purpose.
 
 #### 
 
-#### <span class="smallcaps">Rule 22: Classification of unit groups</span>
+#### <span class="smallcaps">Rule 13: Classification of unit groups</span>
 
 > *(Mandatory for technical target audience, recommended for
 > non-technical target audience)*
@@ -3565,7 +3721,7 @@ express Statement of Purpose.
 
 #### 
 
-#### <span class="smallcaps">Rule 23: Reference flow properties and reference units for types of flows, first criterion</span>
+#### <span class="smallcaps">Rule 14: Reference flow properties and reference units for types of flows, first criterion</span>
 
 > *(Mandatory for technical target audience, recommended for
 > non-technical target audience)*
@@ -3575,7 +3731,7 @@ express Statement of Purpose.
 > different flow property. The unit group for mass is “Units of mass”
 > with the reference unit “kg.”
 
-#### <span class="smallcaps">Rule 24: Reference flow properties and reference units for types of flows, second criterion</span>
+#### <span class="smallcaps">Rule 15: Reference flow properties and reference units for types of flows, second criterion</span>
 
 > *(Mandatory for technical target audience, recommended for
 > non-technical target audience)*
@@ -3594,7 +3750,7 @@ express Statement of Purpose.
 > with other fossil energy resources to primary energy consumption
 > figures.
 
-#### <span class="smallcaps">Rule 25: Reference flow properties and reference units for types of flows, further criteria</span>
+#### <span class="smallcaps">Rule 16: Reference flow properties and reference units for types of flows, further criteria</span>
 
 > *(Mandatory for technical target audience, recommended for
 > non-technical target audience)*
@@ -3701,7 +3857,7 @@ express Statement of Purpose.
 
 #### 
 
-#### <span class="smallcaps">Rule 26: Creation and naming of flow properties, unit groups and units</span>
+#### <span class="smallcaps">Rule 17: Creation and naming of flow properties, unit groups and units</span>
 
 > *(Mandatory for technical target audience, recommended for
 > non-technical target audience)*
@@ -3726,7 +3882,7 @@ express Statement of Purpose.
 
 #### 
 
-#### <span class="smallcaps">Rule 27: Classification of contact data sets</span>
+#### <span class="smallcaps">Rule 18: Classification of contact data sets</span>
 
 > *(Recommended for technical and non-technical target audience)*
 > 
@@ -3750,7 +3906,7 @@ express Statement of Purpose.
 
 #### 
 
-#### <span class="smallcaps">Rule 28: Classification of source data sets</span>
+#### <span class="smallcaps">Rule 19: Classification of source data sets</span>
 
 > *(Recommended for technical and non-technical target audience)*
 > 
