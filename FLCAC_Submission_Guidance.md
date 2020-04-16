@@ -4,7 +4,7 @@
 
 *<span class="smallcaps">Data Submission Guidelines Handbook</span>*
 
-> Last Updated: *May 28, 2019*
+> Last Updated: *April 04, 2020*
 
 FLCAC Collaboration Server
 
@@ -59,7 +59,7 @@ FLCAC Collaboration Server
 > reconcile any issues identified in their internal dataset
 > documentation review (i.e., metadata review). It is important to note
 > that these guidelines do not cover conventions for technical review of
-> the inventory data. **Also,** n**ote these guidelines are a living
+> the inventory data. **Also, note these guidelines are a living
 > document and are updated as the FLCAC data submission process
 > evolves.**
 > 
@@ -84,6 +84,8 @@ DoD Department of Defense
 DOE Department of Energy
 
 EERE Energy Efficiency and Renewable Energy
+
+EF Elementary Flow
 
 EPA Environmental Protection Agency
 
@@ -161,6 +163,8 @@ part of a model or data product (e.g. product system model, unit
 process, flows, flow lists, impact methods, unit groups, flow
 properties, locations, etc).
 
+**Elementary flow:** as materials, energy, or space that are taken directly from the environment or released directly back into the environment
+
 **Interoperability:** dataset consistency between agency repositories
 and/or repository groups in terms of metadata and documentation; life
 cycle inventory data exchange format; product flow correspondence and
@@ -175,7 +179,7 @@ burden on the platform
 **Repository Group**: FLCAC member administrated collection of
 repositories on the FLCAC server
 
-**Technosphere** flow: a n input or output to a unit process that is a
+**Technosphere flow:** an input or output to a unit process that is a
 product of one or more processes
 
 **Unit process**: smallest element considered in the life cycle
@@ -549,7 +553,7 @@ can prevent connectivity, cause duplications and/or confusion among
 users, and result in a bulky database. Flows are categorized as either elementary or technosphere flows.
 
 Therefore, FLCAC has adopted the
-EPA Flow List for elementary flow categorization. Elementary flows are further classified into eight classes as described in Appendix D: Rule 4 The classification of elementary flows allows for a more systematic approach to the creation of the FEDEFL.
+EPA Flow List for elementary flow classification. Elementary flows are further classified into eight classes as described in Appendix D: Rule 4 The classification of elementary flows allows for a more systematic approach to the creation of the FEDEFL.
  
 Technosphere flows and intermediate processes are further classified using the North American
 Industry Classification System (NAICS) 2 digit/4 digit classification
@@ -687,7 +691,7 @@ repositories on the platform.
 
 ![](./media/image4.png)
 
-**Figure 3. Tean coordination schematic for database management on FLCAC
+**Figure 3. Team coordination schematic for database management on FLCAC
 Collaboration Server**
 
 Using this application, LCA data may be edited within a local openLCA
