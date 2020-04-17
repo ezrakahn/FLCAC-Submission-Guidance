@@ -3087,7 +3087,7 @@ emission/air/troposphere/urban
 >emission/ground/terrestrial/snow and ice
 >emission/ground/terrestrial/wetland*
 ######Water
->emission/water
+>*emission/water
 >emission/water/brackish water body
 >emission/water/brackish water body/lake
 >emission/water/brackish water body/lake/rural
@@ -3185,7 +3185,7 @@ emission/air/troposphere/urban
 
 > 
 > When modeling geological flows, the raw resource, or mineral names should be used as the elementary flow flowable. The reason for this recommendation is that this method requires users to track flows through the technosphere transformations to create the metals that are used during manufacturing. When mining metals, gangue or excess rock and non-valuable products as well as trace elements/metals are part of the initial raw resource extraction process. By modeling the raw material mineral, users can account for these by-products in the refining process. 
-However, in some instances this is not possible as users may not know this information. Therefore, metals as raw resources are still included in the ‘Geological’ flow class. Users should be careful when using these flows that they account for the raw material losses from extraction through refining. It is recommended that users apply 5-10% loss of material during refining.
+However, in some instances this is not possible as users may not know this information. Therefore, metals as raw resources are still included in the ‘Geological’ flow class. Users should be careful when using these flows that they account for the raw material losses from extraction through refining. It is recommended that users apply 5-10% loss of material during refining when calculating the value of the raw material.
 
 > 
 #### <span class="smallcaps">Highlight 9: Land Use</span>
@@ -3258,7 +3258,7 @@ Furans</td>
 <tr class="even">
 <td>Rainwater</td>
 <td>Water,fresh</td>
-<td>resource/water*</td>
+<td>resource/air*</td>
 </tr>
 <tr class="odd">
 <td>Water, ocean</td>
@@ -3273,8 +3273,9 @@ Furans</td>
 </tbody>
 </table>
 
-*Comments on rainwater
-**When the original source flow does not provide enough detail; the genaric term, in this case 'Water' can be used when naming the flow even though this is not a preferred FEDEFL term.
+>*It is recommended that rainwater be named 'Water,fresh' and be a resource from air. Rainwater should only be describing the flow of water from the atmosphere into a rainwater collection systems. Rainwater flowing from a collection system is a technosphere flow as it is NOT flowing directly from the biosphere.
+>
+>**When the original source flow does not provide enough detail; the genaric term, in this case 'Water' can be used when naming the flow even though this is not a preferred FEDEFL term.
 
 #####Water qualtiy parameters
 >Water quality parameters like Chemical/Biological Oxygen Demand are classified under the ‘Other’ elementary flow class. Additional quality parameters like pH are measured using the flowable ‘Hydrogen ion’ found in the ‘Element or Compound’ flow class. 
