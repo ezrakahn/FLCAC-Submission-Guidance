@@ -3267,7 +3267,7 @@ Furans</td>
 #### <span class="smallcaps">Highlight 11: Water flows</span>
 
 > 
-#####Assigning fresh, brackish and saline 
+<strong>Assigning fresh, brackish and saline </strong>
 >Whenever possible, users should include the salinity of water flowables. The FEDEFL does include the generic term Water for use when mapping sources that do not specify the salinity and use the context information to capture additional information such as water body type and environmental media. 
 <table>
 <tbody>
@@ -3322,7 +3322,7 @@ Furans</td>
 #####
 ># ILCD Nomenclature Rules
 
-#####It is recommended by the FLCAC to use the ILCD nomenclature rules when creating technosphere and process flow names.
+<strong>It is recommended by the FLCAC to use the ILCD nomenclature rules when creating technosphere and process flow names.</strong>
 
 >
 > All rules paraphrased from the ***International Reference Life Cycle
