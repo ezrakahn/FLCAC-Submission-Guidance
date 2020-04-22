@@ -3229,12 +3229,15 @@ However, in some instances this is not possible as users may not know this infor
 >Radioactive elements should include the numerical value of the isotope. 
 
 >*Examples*:
-Antimony-125, Radon-222
+>
+>Antimony-125, Radon-222
 
->Abbreviations should be avoided. 
+<strong>Abbreviations should be avoided.</strong>
 >
 >
->Naming of chemicals in combination should be avoided. When mapping it is better to estimate the conversion factor for each chemical and name a chemical as individual chemicals rather than by group or in combination, to improve the connection between LCI data and LCIA characterization factors. 
+<strong>Naming of chemicals in combination should be avoided.</strong>
+>
+>When mapping it is better to estimate the conversion factor for each chemical and name a chemical as individual chemicals rather than by group or in combination, to improve the connection between LCI data and LCIA characterization factors. 
 
 <table>
 <tbody>
@@ -3291,9 +3294,9 @@ Furans</td>
 </tbody>
 </table>
 
->*It is recommended that rainwater be named 'Water,fresh' and be a resource from air. Rainwater should only be describing the flow of water from the atmosphere into a rainwater collection systems. Rainwater flowing from a collection system is a technosphere flow as it is NOT flowing directly from the biosphere.
+>>>*It is recommended that rainwater be named 'Water,fresh' and be a resource from air. Rainwater should only be describing the flow of water from the atmosphere into a rainwater collection systems. Rainwater flowing from a collection system is a technosphere flow as it is NOT flowing directly from the biosphere.
 >
->**When the original source flow does not provide enough detail; the genaric term, in this case 'Water' can be used when naming the flow even though this is not a preferred FEDEFL term.
+>>>**When the original source flow does not provide enough detail; the genaric term, in this case 'Water' can be used when naming the flow even though this is not a preferred FEDEFL term.
 
 <strong>Water qualtiy parameters</strong>
 >Water quality parameters like Chemical/Biological Oxygen Demand are classified under the ‘Other’ elementary flow class. Additional quality parameters like pH are measured using the flowable ‘Hydrogen ion’ found in the ‘Element or Compound’ flow class. 
