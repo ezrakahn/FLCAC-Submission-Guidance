@@ -3048,10 +3048,10 @@ Output
 *(It is recommended that users use the appropriate context with as much specificity as possible)*
 >
 >
->####Emissions
+><strong>Emissions</strong>
 >
 >
->>####*Air*
+>><strong>*Air*</strong>
 >
 >*emission/air
 >emission/air/indoor
@@ -3070,7 +3070,7 @@ Output
 >emission/air/troposphere/urban/low
 >emission/air/troposphere/very high*
 >
->>####*Ground*
+>><strong>*Ground*</strong>
 >
 >*emission/ground
 >emission/ground/human-dominated
@@ -3094,7 +3094,7 @@ Output
 >emission/ground/terrestrial/snow and ice
 >emission/ground/terrestrial/wetland*
 >
->>####*Water*
+>><strong>*Water*</strong>
 >
 >*emission/water
 >emission/water/brackish water body
@@ -3120,19 +3120,19 @@ Output
 >emission/water/subterranean/saline water body/ confined aquifer
 >emission/water/subterranean/saline water body/unconfined aquifer*
 >
->####Resources
+><strong>Resources</strong>
 >
->>####*Air*
+>><strong>*Air*</strong>
 >
 >*resource/air
 >resource/air/subterranean
 >resource/air/troposphere*
 >
->>####*Biotic*
+>><strong>*Biotic*</strong>
 >
 >*resource/biotic*
 >
->>####*Ground*
+>><strong>*Ground*</strong>
 >
 >*resource/ground
 >resource/ground/human-dominated
@@ -3155,7 +3155,7 @@ Output
 >resource/ground/terrestrial/snow and ice
 >resource/ground/terrestrial/wetland*
 >
->>####*Water*
+>><strong>*Water*</strong>
 >
 >*resource/water
 >resource/water/brackish water body
