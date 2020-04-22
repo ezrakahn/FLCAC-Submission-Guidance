@@ -3190,7 +3190,7 @@ Output
 ![](./media/image45.png)
 >Alternate units exist using a conversion factor between the different unit types. For each alternate unit there is a single default conversion factor. When mapping flows from an existing source to the FEDEFL users may input their own conversion factors.
  
-####Example
+<strong>Example</strong>
 >When converting flow names from an existing source, if the source contains conversion factors in the name (e.g. “Hard coal; 32.7 MJ/kg” and the units do not match the default units in the FEDEFL then users should use 32.7 MJ/kg as a conversion factor in the mapping file. However, there is no need to input a conversion factor in the mapping file when the units match the default units in FEDEFL.
 
 #### <span class="smallcaps">Highlight 7: Geological ‘fuel’ flows, how to use alternative units and account for energy losses</span>
@@ -3217,14 +3217,14 @@ However, in some instances this is not possible as users may not know this infor
 > 
 > All ‘Element or Compound’s and ‘Groups of Chemicals’ are identified using the US EPA Substance Registry Services (SRS) and US EPA Chemistry Dashboard databases. No ‘Element or Compound’ or ‘Groups of Chemicals’ flowables may be added to the FEDEFL without some type of identification found in either of the two databases. At this time formatting of the ‘Element or Compound’ and ‘Groups of Chemicals’ flowables reflects the formatting found in SRS and Chemistry dashboard. 
 
-Ions
+<strong>Ions</strong>
 >Ions should be named using the following nomenclature using the numerical numbers to identify the ion. Below are some examples of the appropriate nomenclature for ions.
 
 >*Examples*:
 >
 >Chromium(IV), Vanadium(V), Barium(II), Tin(II)
 
-Radioactive elements
+<strong>Radioactive elements</strong>
 >
 >Radioactive elements should include the numerical value of the isotope. 
 
@@ -3295,13 +3295,13 @@ Furans</td>
 >
 >**When the original source flow does not provide enough detail; the genaric term, in this case 'Water' can be used when naming the flow even though this is not a preferred FEDEFL term.
 
-#####Water qualtiy parameters
+<strong>Water qualtiy parameters</strong>
 >Water quality parameters like Chemical/Biological Oxygen Demand are classified under the ‘Other’ elementary flow class. Additional quality parameters like pH are measured using the flowable ‘Hydrogen ion’ found in the ‘Element or Compound’ flow class. 
 #### <span class="smallcaps">Highlight 12: Location specific data</span>
 
 >
 >There is no need to include locations in the naming of flowables since this information can be captured as part of the exchange metadata. An exchange is defined as a flowable used in a process with specific situational metadata included to describe the flowable.
-#####Example:
+<strong>Example:</strong>
 >When a ‘Particulate Matter, <2.5µm’ flowable is used in process to describe the total particulate matter in ‘kg’ emissions to air from coal power plant in Kentucky, USA from January 1, 2019 – December 31, 2019. The flowable takes on the additional context information of an emission to air and units ‘kg’ to become a unique flow. The additional metadata of being from a specific process (e.g. coal power plant) at a specific location (e.g. Kentucky, USA) from a specific time period (e.g. 2019) to become an exchange. The additional location, time period and process are not part of the FEDEFL nomenclature, but additional metadata to describe the use of this flowable.
 
 #### <span class="smallcaps">Highlight 13: “Biogenic and fossil gases (e.g. methane and carbon dioxide) ” field</span>
