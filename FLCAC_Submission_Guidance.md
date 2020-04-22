@@ -3048,10 +3048,10 @@ Output
 *(It is recommended that users use the appropriate context with as much specificity as possible)*
 >
 >
->#####Emissions
+>####Emissions
 >
 >
->>######Air
+>>####*Air*
 >
 >*emission/air
 >emission/air/indoor
@@ -3069,7 +3069,9 @@ Output
 >emission/air/troposphere/urban/high
 >emission/air/troposphere/urban/low
 >emission/air/troposphere/very high*
->>######Ground
+>
+>>####*Ground*
+>
 >*emission/ground
 >emission/ground/human-dominated
 >emission/ground/human-dominated/agricultural
@@ -3091,7 +3093,9 @@ Output
 >emission/ground/terrestrial/shurbland
 >emission/ground/terrestrial/snow and ice
 >emission/ground/terrestrial/wetland*
->>######Water
+>
+>>####*Water*
+>
 >*emission/water
 >emission/water/brackish water body
 >emission/water/brackish water body/lake
@@ -3115,14 +3119,21 @@ Output
 >emission/water/subterranean/saline water body
 >emission/water/subterranean/saline water body/ confined aquifer
 >emission/water/subterranean/saline water body/unconfined aquifer*
->#####Resources
->>######Air
+>
+>####Resources
+>
+>>####*Air*
+>
 >*resource/air
 >resource/air/subterranean
 >resource/air/troposphere*
->>######Biotic
+>
+>>####*Biotic*
+>
 >*resource/biotic*
->>######Ground
+>
+>>####*Ground*
+>
 >*resource/ground
 >resource/ground/human-dominated
 >resource/ground/human-dominated/agricultural
@@ -3143,7 +3154,9 @@ Output
 >resource/ground/terrestrial/shrubland
 >resource/ground/terrestrial/snow and ice
 >resource/ground/terrestrial/wetland*
->>######Water
+>
+>>####*Water*
+>
 >*resource/water
 >resource/water/brackish water body
 >resource/water/brackish water body/lake
