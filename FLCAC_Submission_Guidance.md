@@ -544,7 +544,7 @@ Processes from other databases should not be submitted as datasets.
 ### Nomenclature
 
 Detailed guidance on process and flow nomenclature is
-provided in Table 1. General Information Field Conventions. Elementary Flow nomenclature specific guidance can be found in Appendix: D FEDEFL Nomenclature Rules, while guidance on Technosphere Flow and Process nomenclature can be found in Appendix:E ILCD Nomenclature Rules.
+provided in M-1. General Information Field Conventions. Elementary Flow nomenclature specific guidance can be found in Appendix D: FEDEFL Nomenclature Rules, while guidance on Technosphere Flow and Process nomenclature can be found in Appendix E: ILCD Nomenclature Rules.
 
 #### Categorization
 
@@ -553,7 +553,7 @@ can prevent connectivity, cause duplications and/or confusion among
 users, and result in a bulky database. Flows are categorized as either elementary or technosphere flows.
 
 Therefore, FLCAC has adopted the
-EPA Flow List for elementary flow classification. Elementary flows are further classified into eight classes as described in Appendix D: Rule 4 The classification of elementary flows allows for a more systematic approach to the creation of the FEDEFL.
+EPA Flow List for elementary flow classification. Elementary flows are further classified into eight classes as described in Appendix D: Highlight 4 The classification of elementary flows allows for a more systematic approach to the creation of the FEDEFL.
  
 Technosphere flows and intermediate processes are further classified using the North American
 Industry Classification System (NAICS) 2 digit/4 digit classification
@@ -889,7 +889,7 @@ process “carbon dioxide liquid, at plant/RER U” might read: ‘adapted to
 reflect US average electricity grid.’
 
 Detailed guidance on process and technosphere flow nomenclature is provided in Table
-1. General Information Field Conventions and Appendix E:ILCD
+M-1. General Information Field Conventions and Appendix E: ILCD
 Nomenclature Rules. A technosphere flow that is not being submitted as a
 dataset and is not already in the FLCAC should be categorized in the
 Technosphere Flows\\‘CUTOFF’ folder or a reasonable proxy from the FLCAC
@@ -959,7 +959,7 @@ technosphere (i.e., not elementary flows).
     > process using technical language. The technical name should be
     > given as it is used in the respective industry or toward their
     > customers. The standards include qualitative information about the
-    > process in technical terms (see Rules 12-17 Appendix D: ILCD
+    > process in technical terms (see Rules 1-19 Appendix E: ILCD
     > Nomenclature Rules or the full [ILCD
     > Handbook](http://eplca.jrc.ec.europa.eu/uploads/MANPROJ-PR-ILCD-Handbook-Nomenclature-and-other-conventions-first-edition-ISBN-fin-v1.0-E.pdf)
     > for a list of potential descriptive terms). The quantitative
@@ -1641,7 +1641,7 @@ Conventions</span>***
 <td><p>Process name based on the <strong>FLCAC naming convention;</strong> the name should reflect the product or service it represents; the product reference output is given the same name as the process name; the naming conventions are as follows:</p>
 <p><strong>Base name; treatment, routes, standards; production type, location type; quantitative flow properties</strong></p>
 <blockquote>
-<p>The base name is a general descriptive name of the process using technical language. The technical name should be given as it is used in the respective industry or toward their customers. The standards include qualitative information about the process in technical terms (see Rules 12-17 <span class="underline">Appendix D:</span> <span class="underline">ILCD Nomenclature Rules</span> or the full <a href="http://eplca.jrc.ec.europa.eu/uploads/MANPROJ-PR-ILCD-Handbook-Nomenclature-and-other-conventions-first-edition-ISBN-fin-v1.0-E.pdf"><span class="underline">ILCD Handbook</span></a> for a list of potential descriptive terms). The quantitative process properties further specify information on process in technical quantitative term(s).</p>
+<p>The base name is a general descriptive name of the process using technical language. The technical name should be given as it is used in the respective industry or toward their customers. The standards include qualitative information about the process in technical terms (see Rules 12-17 <span class="underline">Appendix E:</span> <span class="underline">ILCD Nomenclature Rules</span> or the full <a href="http://eplca.jrc.ec.europa.eu/uploads/MANPROJ-PR-ILCD-Handbook-Nomenclature-and-other-conventions-first-edition-ISBN-fin-v1.0-E.pdf"><span class="underline">ILCD Handbook</span></a> for a list of potential descriptive terms). The quantitative process properties further specify information on process in technical quantitative term(s).</p>
 </blockquote>
 <p>Base name and treatment/routes/standards are mandatory; production/location type is mandatory if relevant to the process (if not, it can be ignored); the location type of availability (LCAC) is designated only if the process is not a mix; if the process is a production or consumption mix, the mix type is indicated; finally, any essential quantitative properties of the product or process should be included.</p>
 <p>For consistent nomenclature, use the following guidelines:</p>
@@ -1740,7 +1740,7 @@ Conventions</span>***
 </tr>
 <tr class="even">
 <td>(M) Quantitative reference</td>
-<td>When you create a new process, this is the basis by which all the process flows are scaled; often the functional unit; the quantitative reference must be one of the process output flows; the output flows appear in a pull-down menu by default (See <span class="underline">Rule 16: “Quantitative flow properties” name field</span>, in Appendix D: ILCD Nomenclature Rules).</td>
+<td>When you create a new process, this is the basis by which all the process flows are scaled; often the functional unit; the quantitative reference must be one of the process output flows; the output flows appear in a pull-down menu by default (See <span class="underline">Rule 8: “Quantitative flow properties” name field</span>, in Appendix E: ILCD Nomenclature Rules).</td>
 <td><em>Scanner; Kodak Alaris i940 desktop scanner; Global supply chain; 1 unit, 1.55 kg</em></td>
 </tr>
 <tr class="odd">
@@ -1909,7 +1909,7 @@ The process includes three sub-processes: Quarry Operations; Transport and Plant
 <td>
 <strong>Elementary Flows:</strong>
 
-Elementary flows should be named based on the <strong> FEDEFL nomenclature guidelines</strong>. For general elementary flow and see Highlights 1-14 of <span class="underline">Appendix D: FEDEFL Nomenclature Rules</span>. See the <span class="underline">full <a href="https://cfpub.epa.gov/si/si_public_record_report.cfm?Lab=NRMRL&dirEntryId=341199">FEDEFL Guidance</a></span> for detailed conventions.
+Elementary flows should be named based on the <strong> FEDEFL nomenclature guidelines</strong>. For general elementary flow and see Highlights 1-14 of <span class="underline">Appendix D: FEDEFL Nomenclature Highlights</span>. See the <span class="underline">full <a href="https://cfpub.epa.gov/si/si_public_record_report.cfm?Lab=NRMRL&dirEntryId=341199">FEDEFL Guidance</a></span> for detailed conventions.
 
 <strong>Technosphere Flows:</strong>
 
@@ -2019,7 +2019,7 @@ Conventions</span>***
 <td>(A) Flow</td>
 <td><strong>Elementary Flows:</strong>
 
-Elementary flows should be named based on the <strong> FEDEFL nomenclature guidelines</strong>. For general elementary flow and see Highlights 1-14 of <span class="underline">Appendix D: FEDEFL Nomenclature Rules</span>. See the <span class="underline">full <a href="https://cfpub.epa.gov/si/si_public_record_report.cfm?Lab=NRMRL&dirEntryId=341199">FEDEFL Guidance</a></span> for detailed conventions.
+Elementary flows should be named based on the <strong> FEDEFL nomenclature guidelines</strong>. For general elementary flow and see Highlights 1-14 of <span class="underline">Appendix D: FEDEFL Nomenclature Highlights</span>. See the <span class="underline">full <a href="https://cfpub.epa.gov/si/si_public_record_report.cfm?Lab=NRMRL&dirEntryId=341199">FEDEFL Guidance</a></span> for detailed conventions.
 
 <strong>Technosphere Flows:</strong>
 
@@ -2920,21 +2920,21 @@ express Statement of Purpose.
 > 
 > **Resources**
 >
-> Resource, Ground
+>>Resource, Ground
 > 
-> Resource, Water
+>>Resource, Water
+> >
+>>Resource, Air
 > 
-> Resource, Air
-> 
-> Resources, Biotic
+>>Resources, Biotic
 >
 >**Emissions**
 > 
-> Emissions, Ground
+>> Emissions, Ground
 > 
-> Emissions, Water
+>>Emissions, Water
 > 
-> Emissions, Air
+>>Emissions, Air
 
 
 #### <span class="smallcaps">Highlight 3: Environmental media based on phase (e.g. solid, liquid, gas, biosphere)</span>
@@ -2942,7 +2942,8 @@ express Statement of Purpose.
 > 
 > The FEDEFL distinguishes between the environmental media and the vertical strata creating a flow context. 
 
->For example, a resource flow from a groundwater well would have conventionally had ‘ground’ as the media. However, ground more accurately describes the vertical strata from which the resource is extracted, while the environmental media from which the resource is flowing is water. Therefore, in the FEDEFL the terms air, water and ground refer to the media, while another compartment class is used to describe the vertical strata. This is the first time these two compartment classes are used to clarify the difference between environmental media and vertical strata. It is important to note that for emission, the environmental media reflects the media the flow is going to and that for resources it is the media from which a resource originated. 
+>Example:
+>> A resource flow from groundwater,well would conventionally have the flow context resource/ground. However, ground more accurately describes the vertical strata from which the resource is extracted, while the environmental media from which the resource is flowing is water. Therefore, in the FEDEFL the terms air, water and ground refer to the media, while another compartment class is used to describe the vertical strata. This is the first time these two compartment classes are used to clarify the difference between environmental media and vertical strata. It is important to note that for emission, the environmental media reflects the media the flow is going to and that for resources it is the media from which a resource originated. 
 
 >The biotic media is used to describe the living media which some material flows from, such as the flow of wood from trees (e.g. Hardwood, Resource/Biotic).
 
@@ -3186,11 +3187,11 @@ Output
 
 
 
-> Some flows can be used with different units, e.g. radioactive chemicals can use the ‘kg’ or ‘kBq’ units. In instances where multiple units are possible, one unit is set as the FEDEFL default unit and other units are considered alternative units. All flows with an alternative unit exist within the AltUnit files on github by flow class (pictured below)
+> Some flows can be used with different units, e.g. radioactive chemicals can use the ‘kg’ or ‘kBq’ units. In instances where multiple units are possible, one unit is set as the FEDEFL default unit and other units are considered alternative units. All flows with an alternative unit exist within the AltUnit files on github by flow class (pictured below).
 ![](./media/image45.png)
 >Alternate units exist using a conversion factor between the different unit types. For each alternate unit there is a single default conversion factor. When mapping flows from an existing source to the FEDEFL users may input their own conversion factors.
  
-<strong>Example</strong>
+>><strong>Example</strong>:
 >When converting flow names from an existing source, if the source contains conversion factors in the name (e.g. “Hard coal; 32.7 MJ/kg” and the units do not match the default units in the FEDEFL then users should use 32.7 MJ/kg as a conversion factor in the mapping file. However, there is no need to input a conversion factor in the mapping file when the units match the default units in FEDEFL.
 
 #### <span class="smallcaps">Highlight 7: Geological ‘fuel’ flows, how to use alternative units and account for energy losses</span>
@@ -3209,7 +3210,7 @@ However, in some instances this is not possible as users may not know this infor
 #### <span class="smallcaps">Highlight 9: Land Use</span>
 
 > 
->Land transformations should NOT be modeled as flows. Transformations are an activity and should be modeled as a process with land inputs. Only land occupations are flows elementary flows and are named based on the land types. All land occupation should have units of area*time. Any land flows that do not have such units are not in compliance with FEDEFL nomenclature.  
+>Land transformations are not included as elementary flows in the FEDEFL. Transformations are an activity and should be modeled as a process with land inputs. Only land occupations are flows elementary flows and are named based on the land types. All land occupation should have units of area*time. Any land flows that do not have such units are not in compliance with FEDEFL nomenclature.  
 #### 
 
 #### <span class="smallcaps">Highlight 10: Identifying and Formatting ‘Element or Compound’s and ‘Groups of Chemicals’</span>
@@ -3217,58 +3218,40 @@ However, in some instances this is not possible as users may not know this infor
 > 
 > All ‘Element or Compound’s and ‘Groups of Chemicals’ are identified using the US EPA Substance Registry Services (SRS) and US EPA Chemistry Dashboard databases. No ‘Element or Compound’ or ‘Groups of Chemicals’ flowables may be added to the FEDEFL without some type of identification found in either of the two databases. At this time formatting of the ‘Element or Compound’ and ‘Groups of Chemicals’ flowables reflects the formatting found in SRS and Chemistry dashboard. 
 
-<strong>Ions</strong>
->Ions should be named using the following nomenclature using the numerical numbers to identify the ion. Below are some examples of the appropriate nomenclature for ions.
+><strong>Ions</strong>
+>
+>>Ions should be named using the following nomenclature using the numerical numbers to identify the ion. Below are some examples of the appropriate nomenclature for ions.
 
 >*Examples*:
 >
->Chromium(IV), Vanadium(V), Barium(II), Tin(II)
+>>Chromium(IV), Vanadium(V), Barium(II), Tin(II)
 
-<strong>Radioactive elements</strong>
+><strong>Radioactive elements</strong>
 >
->Radioactive elements should include the numerical value of the isotope. 
+>>Radioactive elements should include the numerical value of the isotope. 
 
 >*Examples*:
 >
->Antimony-125, Radon-222
+>>Antimony-125, Radon-222
 
-<strong>Abbreviations should be avoided.</strong>
+><strong>Abbreviations should be avoided.</strong>
 >
 >
-<strong>Naming of chemicals in combination should be avoided.</strong>
+><strong>Naming of chemicals in combination should be avoided.</strong>
 >
->When mapping it is better to estimate the conversion factor for each chemical and name a chemical as individual chemicals rather than by group or in combination, to improve the connection between LCI data and LCIA characterization factors. 
+>>When mapping it is better to estimate the conversion factor for each chemical and name a chemical as individual chemicals rather than by group or in combination, to improve the connection between LCI data and LCIA characterization factors. 
 
-<table>
-<tbody>
-<tr class="odd">
-<td><strong>Recommended FEDEFL nomenclature</strong></td>
-<td><strong>Other nomenclature *(not recommended)*</strong></td>
-</tr>
-<tr class="even">
-<td>Hydrochlorocarbons
-
+>*Example*
 >
-Hydrofluorochlorocarbons</td>
-<td>Hydrochlorocarbons and Hydrofluorochlorocarbons</td>
-</tr>
-<tr class="odd">
-<td>Dioxins
-
->
-Furans</td>
-<td>Dioxins and Furans</td>
-</tr>
-</tbody>
-</table>
+>>'Dioxins and Furans' should now be two flows 'Dioxins' and 'Furans'
 
 #### 
 
 #### <span class="smallcaps">Highlight 11: Water flows</span>
 
 > 
-<strong>Assigning fresh, brackish and saline </strong>
->Whenever possible, users should include the salinity of water flowables. The FEDEFL does include the generic term Water for use when mapping sources that do not specify the salinity and use the context information to capture additional information such as water body type and environmental media. 
+><strong>Assigning fresh, brackish and saline </strong>
+>>Whenever possible, users should include the salinity of water flowables. The FEDEFL does include the generic term Water for use when mapping sources that do not specify the salinity and use the context information to capture additional information such as water body type and environmental media. 
 <table>
 <tbody>
 <tr class="odd">
@@ -3294,12 +3277,12 @@ Furans</td>
 </tbody>
 </table>
 
->>>*It is recommended that rainwater be named 'Water,fresh' and be a resource from air. Rainwater should only be describing the flow of water from the atmosphere into a rainwater collection systems. Rainwater flowing from a collection system is a technosphere flow as it is NOT flowing directly from the biosphere.
+>>*It is recommended that rainwater be named 'Water,fresh' and be a resource from air. Rainwater should only be describing the flow of water from the atmosphere into a rainwater collection systems. Rainwater flowing from a collection system is a technosphere flow as it is NOT flowing directly from the biosphere.
 >
->>>**When the original source flow does not provide enough detail; the genaric term, in this case 'Water' can be used when naming the flow even though this is not a preferred FEDEFL term.
+>>**When the original source flow does not provide enough detail; the generic term, in this case 'Water' can be used when naming the flow even though this is not a preferred FEDEFL term.
 
-<strong>Water qualtiy parameters</strong>
->Water quality parameters like Chemical/Biological Oxygen Demand are classified under the ‘Other’ elementary flow class. Additional quality parameters like pH are measured using the flowable ‘Hydrogen ion’ found in the ‘Element or Compound’ flow class. 
+><strong>Water quality parameters</strong>
+>>Water quality parameters like Chemical/Biological Oxygen Demand are classified under the ‘Other’ elementary flow class. Additional quality parameters like pH are measured using the flowable ‘Hydrogen ion’ because the source reporting is in H+ units. This flow is found in the ‘Element or Compound’ flow class. 
 #### <span class="smallcaps">Highlight 12: Location specific data</span>
 
 >
@@ -3317,10 +3300,10 @@ Furans</td>
 
 #### <span class="smallcaps">Highlight 14: End-of-life waste </span>
 
->While end-of-life waste flows are techniquely flows back to the biosphere, they are classified differently than elementary flows and not included in the FEDEFL. Whenever possible, it is recommended that waste be characterized by the 'Element or Compound' or 'Groups of Chemicals' so that flows can be characterized in LCIA methods. When specifics are not possible, it is recommended that users use the ILCD format for waste flows in naming End of life waste. In OpenLCA, waste flows are maintained in a separate folder.
+>While end-of-life waste flows are technically flows back to the biosphere, they are classified differently than elementary flows and not included in the FEDEFL. Whenever possible, it is recommended that waste be characterized by the 'Element or Compound' or 'Groups of Chemicals' so that flows can be characterized in LCIA methods. When specifics are not possible, it is recommended that users use the ILCD format for waste flows in naming End of life waste. In openLCA, waste flows are maintained in a separate folder.
 
 #####
-># ILCD Nomenclature Rules
+# ILCD Nomenclature Rules
 
 <strong>It is recommended by the FLCAC to use the ILCD nomenclature rules when creating technosphere and process flow names.</strong>
 
