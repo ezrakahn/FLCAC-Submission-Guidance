@@ -163,7 +163,7 @@ part of a model or data product (e.g. product system model, unit
 process, flows, flow lists, impact methods, unit groups, flow
 properties, locations, etc).
 
-**Elementary flow:** as materials, energy, or space that are taken directly from the environment or released directly back into the environment
+**Elementary flow:** materials, energy, or space that are taken directly from the environment or released directly back into the environment
 
 **Interoperability:** dataset consistency between agency repositories
 and/or repository groups in terms of metadata and documentation; life
