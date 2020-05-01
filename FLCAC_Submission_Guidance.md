@@ -93,15 +93,15 @@ EPD Environmental Product Declaration
 
 FAA Federal Aviation Administration
 
-FEDEFL Federal Elementary Flow List
+FEDEFL Federal LCA Commons Elementary Flow List
 
 FHWA Federal Highway Administration
 
 FLCAC Federal Life Cycle Assessment Commons
 
-GREET Gases, Regulated Emissions, and Energy use in Transportation
+GREET Greenhouse Gases, Regulated Emissions, and Energy use in Transportation
 
-ILCD International Reference Life Cycle Data
+ILCD International Reference Life Cycle Data System
 
 IUPAC International Union of Pure and Applied Chemistry
 
@@ -109,21 +109,21 @@ JSON-LD JavaScript Object Notation for Linked Data
 
 KML Keyhole Markup Language
 
-LCA Life cycle assessment
+LCA Life Cycle Assessment
 
 LCAC Life Cycle Assessment Commons
 
 LCC Life Cycle Costing
 
-LCI Life cycle inventory
+LCI Life Cycle Inventory
 
-LCIA Life Cycle Impact Analysis
+LCIA Life Cycle Impact Assessment
 
 NAICS North American Industry Classification System
 
 NAL National Agricultural Library
 
-NETL National Energy Technology Library
+NETL National Energy Technology Laboratory
 
 NIST National Institute of Standards and Technologies
 
@@ -131,7 +131,7 @@ NREL National Renewable Energy Laboratory
 
 OAIS Open Archival Information System
 
-PM Particulate matter
+PM Particulate Matter
 
 PP Polypropylene
 
@@ -553,7 +553,7 @@ can prevent connectivity, cause duplications and/or confusion among
 users, and result in a bulky database. Flows are categorized as either elementary or technosphere flows.
 
 Therefore, FLCAC has adopted the
-EPA Flow List for elementary flow classification. Elementary flows are further classified into eight classes as described in Appendix D: Highlight 4 The classification of elementary flows allows for a more systematic approach to the creation of the FEDEFL.
+EPA Federal LCA Commons Elementary Flow List (FEDEFL) for elementary flow classification. Elementary flows are further classified into eight classes as described in Appendix D: Highlight 4. The classification of elementary flows employed by the FEDEFL allows for a systematic approach for managing elementary flows on the Federal LCA Commons.
  
 Technosphere flows and intermediate processes are further classified using the North American
 Industry Classification System (NAICS) 2 digit/4 digit classification
