@@ -255,7 +255,7 @@ sustainably supported, and support US industry competitiveness.
 
 To date, the US FLCAC is the result of coordinated work by the US
 Department of Agriculture (USDA), the Environmental Protection Agency
-(EPA), the National Energy Technology Library (NETL), the National
+(EPA), the National Energy Technology Laboratory (NETL), the National
 Renewable Energy Laboratory (NREL), the Argonne National Laboratory
 (ANL), the US Army Corps of Engineers (USACE), the Federal Highway
 Administration (FHWA), the US Forest Service (USFS), the Federal
