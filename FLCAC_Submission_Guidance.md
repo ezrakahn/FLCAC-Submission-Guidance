@@ -917,7 +917,7 @@ flows. Please see the US EPA report, [The Federal LCA Commons Elementary Flow Li
 Elementary flow names in LCI must correspond directly to the elementary flow names used
 in the LCIA method. Usage of the FEDEFL protocol for both LCI and LCIA datasets on the FLCAC ensures interoperability between these different types of datasets. 
 
-To assist with transition to the FEDEFL document LCIA methods used in the ‘Intended Application’ field of the Administrative
+To assist with transition to the FEDEFL, document LCIA methods used in the ‘Intended Application’ field of the Administrative
 Information tab in openLCA. If data being submitted have NOT been used
 in an LCIA, please use flows from the openLCA reference list. If you
 used SimaPro or GaBi modeling software and an impact method that is also
@@ -1916,11 +1916,6 @@ Elementary flows should be named based on the <strong> FEDEFL nomenclature guide
 Flow name based on the <strong>ILCD Naming Convention</strong> (see General Information, Name Field Conventions). For general technosphere flow and for general product/process flow names, see Rules 1-19 of <span class="underline">Appendix E: ILCD Nomenclature Rules</span>. See the <span class="underline">full <a href="http://eplca.jrc.ec.europa.eu/uploads/MANPROJ-PR-ILCD-Handbook-Nomenclature-and-other-conventions-first-edition-ISBN-fin-v1.0-E.pdf">ILCD Handbook</a></span> for detailed conventions</td>
 <td><em>
 <strong>Elementary Flow</strong>
-
-
-'Element or Compound' 
-
-Cyclohexanemethylamine, Emission/Air
 
 'Biological'
 
