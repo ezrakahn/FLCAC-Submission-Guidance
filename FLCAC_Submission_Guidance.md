@@ -865,7 +865,7 @@ Within openLCA, the only data quality scheme available by default is
 that of ecoinvent®. The USLCI uses the EPA Data Quality Pedigree Matrix
 (downloaded and imported into openLCA from GreenDelta’s web page). The
 FLCAC does not require a specific scheme be utilized; however, Appendix
-G: Using the EPA Data Quality Pedigree Matrix in openLCA provides
+H: Using the EPA Data Quality Pedigree Matrix in openLCA provides
 instructions for utilizing the EPA Data Quality Pedigree Matrix.
 
 ## **Formatting**
@@ -2636,7 +2636,7 @@ https://www.lifecycleinitiative.org/wp-content/uploads/2012/12/2011%20-%20Global
 
 # **Appendices**
 
-# Data Use Disclaimer Agreement
+# Appendix A - Data Use Disclaimer Agreement
 
 ## **Default FLCAC Data Use Disclaimer (“Agreement”)**
 
@@ -2711,7 +2711,7 @@ ASSOCIATED WITH THE LOSS OF DATA OR PROFITS, WHICH MAY RESULT FROM AN
 ACTION IN CONTRACT, NEGLIGENCE OR OTHER TORTIOUS CLAIM THAT ARISES OUT
 OF OR IN CONNECTION WITH THE ACCESS, USE OR PERFORMANCE OF THESE DATA.
 
-# Data Provider’s Content License Agreement (“Agreement”)
+# Appendix B - Data Provider’s Content License Agreement (“Agreement”)
 
 > FLCAC does not claim ownership of the materials (each a "Submission"
 > and collectively "Submissions") you provide to FLCAC (including
@@ -2757,7 +2757,7 @@ OF OR IN CONNECTION WITH THE ACCESS, USE OR PERFORMANCE OF THESE DATA.
 > the promotion of the FLCAC Database Project. No compensation will be
 > paid with respect to the use of your Images.
 
-# Creative Commons Legal Code
+# Appendix C - Creative Commons Legal Code
 
 **<span class="smallcaps">CC0 1.0 Universal</span>**
 
@@ -2899,7 +2899,7 @@ express Statement of Purpose.
     party to this document and has no duty or obligation with respect to
     this CC0 or use of the Work.
 
-# FEDEFL Nomenclature Highlights
+# Appendix D - FEDEFL Nomenclature Highlights
 
 > This section includes highlights from the FEDEFL guidance. The full guidance document can be found at
 > <span class="underline"><https://cfpub.epa.gov/si/si_public_record_Report.cfm?dirEntryId=347251&Lab=NRMRL>.</span>
@@ -3303,7 +3303,7 @@ However, in some instances this is not possible as users may not know this infor
 >While end-of-life waste flows are technically flows back to the biosphere, they are classified differently than elementary flows and not included in the FEDEFL. Whenever possible, it is recommended that waste be characterized by the 'Element or Compound' or 'Groups of Chemicals' so that flows can be characterized in LCIA methods. When specifics are not possible, it is recommended that users use the ILCD format for waste flows in naming End of life waste. In openLCA, waste flows are maintained in a separate folder.
 
 #####
-# ILCD Nomenclature Rules
+# Appendix E - ILCD Nomenclature Rules
 
 <strong>It is recommended by the FLCAC to use the ILCD nomenclature rules when creating technosphere and process flow names.</strong>
 
@@ -3905,7 +3905,7 @@ However, in some instances this is not possible as users may not know this infor
 > 
 > "Other source types"
 
-# 2017 NAICS United States Structure
+# Appendix F - 2017 NAICS United States Structure
 
 > The following page contains a summary table of the 2017 North American
 > Industry Classification System (NAICS) United States structure. The
@@ -4856,7 +4856,7 @@ However, in some instances this is not possible as users may not know this infor
 > 
 > 9281 National Security and International Affairs
 
-# Example openLCA Element Addition
+# Appendix G - Example openLCA Element Addition
 
 ### 
 
@@ -4900,7 +4900,7 @@ UUID is created**
 **STEP 5. openLCA Element Addition: The newly created element now
 available in the navigation tree**
 
-# Using the EPA Data Quality Pedigree Matrix in openLCA
+# Appendix H - Using the EPA Data Quality Pedigree Matrix in openLCA
 
 ## **Step 1: DOWNLOAD THE MATRIX**
 
