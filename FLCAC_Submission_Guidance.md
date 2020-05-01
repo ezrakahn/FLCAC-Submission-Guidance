@@ -912,11 +912,10 @@ The US EPA has developed a master elementary Flow List ([the FEDEFL](https://git
 available in CSV and openLCA schema JSON-LD formats, and provides resources to help with mappings. The current release version is available via the
 FLCAC portal. The ([the FEDEFL wiki](https://github.com/USEPA/Federal-LCA-Commons-Elementary-Flow-List/wiki))
 provides guidance on converting an established Flow List in a standard openLCA format to FEDEFL
-flows. Please see the US EPA report, [The Federal LCA Commons Elementary Flow List: Background, Approach, Description and Recommendations for Use](https://cfpub.epa.gov/si/si_public_record_report.cfm?dirEntryId=347251&Lab=NRMRL&simpleSearch=0&showCriteria=2&searchAll=elementary+flows&TIMSType=Published+Report&dateBeginPublishedPresented=07%2F31%2F2019) for more information regarding the Flow List requirements and nomenclature.
+flows. Please see the US EPA report, [The Federal LCA Commons Elementary Flow List: Background, Approach, Description and Recommendations for Use](https://cfpub.epa.gov/si/si_public_record_report.cfm?dirEntryId=347251&Lab=NRMRL&simpleSearch=0&showCriteria=2&searchAll=elementary+flows&TIMSType=Published+Report&dateBeginPublishedPresented=07%2F31%2F2019) for more information regarding the FEDEFL requirements and nomenclature.
 
-Elementary flow names must correspond directly to the impact method used
-in the LCIA. This protocol assures users that your dataset can connect
-your elementary flows to the associated LCIA method. Document LCIA
+Elementary flow names in LCI must correspond directly to the elementary flow names used
+in the LCIA method. Usage of the FEDEFL protocol for both LCI and LCIA datasets on the FLCAC ensures interoperability between these different types of datasets. Document LCIA
 methods used in the ‘Intended Application’ field of the Administrative
 Information tab in openLCA. If data being submitted have NOT been used
 in an LCIA, please use flows from the openLCA reference list. If you
