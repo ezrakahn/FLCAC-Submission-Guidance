@@ -3044,8 +3044,8 @@ Output
 
 #### <span class="smallcaps">Highlight 5: Further differentiation of context information (secondary context information)</span>
 
-> Secondary context information provides further details. Not all secondary context information applies to each of the flow classes Below is a complete list of all combinations of primary and secondary flow context: 
-*(It is recommended that users use the appropriate context with as much specificity as possible)*
+> Secondary context information provides further details. Not all secondary context information applies to each of the flow classes. Below is a complete list of all combinations of primary and secondary flow context: 
+*(It is recommended that users use the appropriate context with as much specificity as possible).*
 >
 >
 ><strong>Emissions</strong>
@@ -3053,22 +3053,22 @@ Output
 >
 >><strong>*Air*</strong>
 >
->*emission/air
->emission/air/indoor
->emission/air/stratosphere
->emission/air/subterranean
->emission/air/troposphere/ground-level
->emission/air/troposphere/high
->emission/air/troposphere/low
->emission/air/troposphere/rural
->emission/air/troposphere/rural/ground-level
->emission/air/troposphere/rural/high
->emission/air/troposphere/rural/low
->emission/air/troposphere/urban
->emission/air/troposphere/urban/ground-level
->emission/air/troposphere/urban/high
->emission/air/troposphere/urban/low
->emission/air/troposphere/very high*
+>*emission/air,
+> emission/air/indoor,
+> emission/air/stratosphere,
+> emission/air/subterranean,
+> emission/air/troposphere/ground-level,
+> emission/air/troposphere/high,
+> emission/air/troposphere/low,
+> emission/air/troposphere/rural,
+> emission/air/troposphere/rural/ground-level,
+> emission/air/troposphere/rural/high,
+> emission/air/troposphere/rural/low,
+> emission/air/troposphere/urban,
+> emission/air/troposphere/urban/ground-level,
+> emission/air/troposphere/urban/high,
+> emission/air/troposphere/urban/low,
+> emission/air/troposphere/very high*
 >
 >><strong>*Ground*</strong>
 >
