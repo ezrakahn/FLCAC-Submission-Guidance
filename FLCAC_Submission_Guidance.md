@@ -2581,6 +2581,8 @@ CPM Report 2003:3 by Karolina Flemstrom and Ann-Christin Palsson at
 Chalmers University of Technology, Goteborg, Sweden 2003. Accessed at:
 [<span class="underline">http://cpmdatabase.cpm.chalmers.se/Document/CPM\_Report\_2003\_3\_Introduction\_and\_guide.pdf</span>](http://cpmdatabase.cpm.chalmers.se/Document/CPM_Report_2003_3_Introduction_and_guide.pdf).
 
+EPA (2019). The Federal LCA Commons Elementary Flow List: Background, Approach, Description and Recommendations for Use. U.S. Environmental Protection Agency, Washington, DC, EPA/600/R-19/092. Accessed at: [<span class="underline">https://cfpub.epa.gov/si/si_public_record_Report.cfm?dirEntryId=347251&Lab=NRMRL</span>](https://cfpub.epa.gov/si/si_public_record_Report.cfm?dirEntryId=347251&Lab=NRMRL).
+
 EPA (2016). Guidance on Data Quality Assessment for Life Cycle Inventory
 Data, Version 1, National Risk Management Research Laboratory Office of
 Research and Development, EPA/600/R-16/096, June 2016. Accessed at:
