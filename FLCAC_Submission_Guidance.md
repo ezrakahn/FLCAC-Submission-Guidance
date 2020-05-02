@@ -2942,7 +2942,7 @@ express Statement of Purpose.
 > The FEDEFL distinguishes between the environmental media and the vertical strata creating a flow context. 
 
 >Example:
->> A resource flow from "groundwater, well" would conventionally have the flow context resource/ground. However, ground more accurately describes the vertical strata from which the resource is extracted, while the environmental media from which the resource is flowing is water. Therefore, in the FEDEFL the terms air, water and ground refer to the media, while another compartment class is used to describe the vertical strata. This is the first time these two compartment classes are used to clarify the difference between environmental media and vertical strata. It is important to note that for emission, the environmental media reflects the media the flow is going to and that for resources it is the media from which a resource originated. 
+>> A resource flow from "groundwater, well" would conventionally have the flow context resource/ground. However, ground more accurately describes the vertical strata from which the resource is extracted, while the environmental media from which the resource is flowing is water. Therefore, in the FEDEFL the terms air, water and ground refer to the media, while another class is used to describe the vertical strata. It is important to note that for emission, the environmental media reflects the media the flow is going to and that for resources it is the media from which a resource originated. 
 
 >The biotic media is used to describe the living media which some material flows from, such as the flow of wood from trees (e.g. Hardwood, Resource/Biotic).
 
