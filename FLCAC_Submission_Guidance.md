@@ -2950,7 +2950,7 @@ express Statement of Purpose.
 #### <span class="smallcaps">Highlight 4: Classifying elementary flows (Eight class system)</span>
 
 > 
-> It is recommended that users utilize the eight-class system as seen below to classify all elementary flows. Usage of the flow classification system helps improve the structure used to organize flows. Flow classes are a way to group EFs by their flowable type. Classes may have sets of contexts and units that distinguish them from flows in other classes.
+> It is recommended that users utilize the eight-class system as seen below to classify all elementary flows. Usage of the flow classification system helps improve the structure used to organize flows. Flow classes are a way to group elementary flows by their flowable type. Classes may have sets of contexts and units that distinguish them from flows in other classes.
 <table>
 <tbody>
 <tr class="odd">
