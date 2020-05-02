@@ -2984,7 +2984,7 @@ express Statement of Purpose.
 <tr class="odd">
 <td><strong>Biological</strong></td>
 <td>Both</td>
-<td>Input: Biomass or organic matter
+<td>Input: biomass or organic matter
 
 >
 Output: biological matter (e.g. microorganisms, mites and pollen) </td>
