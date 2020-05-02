@@ -2022,7 +2022,7 @@ Flow name based on the <strong>ILCD Naming Convention</strong> (see General Inf
 <td><em><strong>Elementary Flows:</strong>
 
 'Groups of Chemicals'
-Particulate matter,≤ 10μm,Emission/Air
+Particulate matter, ≤ 10μm, Emission/Air
 
 <strong>Technosphere Flows:</strong>
 
