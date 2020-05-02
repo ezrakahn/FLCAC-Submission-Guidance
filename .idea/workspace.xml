@@ -19,7 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c70388b1-2acf-4fa5-b60e-6c8a67751514" name="Default Changelist" comment="Updated TableM2 example">
+    <list default="true" id="c70388b1-2acf-4fa5-b60e-6c8a67751514" name="Default Changelist" comment="Updating FEDEFL highlights">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FLCAC_Submission_Guidance.md" beforeDir="false" afterPath="$PROJECT_DIR$/FLCAC_Submission_Guidance.md" afterDir="false" />
     </list>
@@ -109,7 +109,56 @@
       <option name="project" value="LOCAL" />
       <updated>1588367756525</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Updated FEDEFL names description">
+      <created>1588427455619</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1588427455619</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Updated FEDEFL names description">
+      <created>1588427512735</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1588427512735</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Updated FEDEFL Table M description">
+      <created>1588427949003</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1588427949003</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Updated FEDEFL Table M description">
+      <created>1588428111434</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1588428111434</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Updating references">
+      <created>1588428565303</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1588428565303</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Updating references">
+      <created>1588428677388</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1588428677388</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Updating FEDEFL highlights">
+      <created>1588428841430</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1588428841430</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -132,7 +181,11 @@
     <MESSAGE value="Revised description of EF names" />
     <MESSAGE value="Fixed LCIA documentation in EF section" />
     <MESSAGE value="Updated TableM2 example" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated TableM2 example" />
+    <MESSAGE value="Updated FEDEFL names description" />
+    <MESSAGE value="Updated FEDEFL Table M description" />
+    <MESSAGE value="Updating references" />
+    <MESSAGE value="Updating FEDEFL highlights" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updating FEDEFL highlights" />
   </component>
   <component name="WindowStateProjectService">
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1588363065929">
@@ -143,9 +196,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="165" key="SettingsEditor/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1588364955601" />
-    <state x="418" y="216" key="Vcs.Push.Dialog.v2" timestamp="1588367761713">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="297" y="151" key="Vcs.Push.Dialog.v2" timestamp="1588428852761">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state x="297" y="151" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1588428852761" />
     <state x="418" y="216" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1588367761713" />
     <state x="769" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1588364987155">
       <screen x="0" y="0" width="1920" height="1040" />
