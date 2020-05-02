@@ -2915,7 +2915,7 @@ express Statement of Purpose.
 #### <span class="smallcaps">Highlight 2: Elementary flow primary contexts</span>
 
 > 
-> Contexts are listed by directionality (Resource/Emission) and environmental media (Air,Ground,Water,Biotic)
+> Contexts are listed by directionality (Resource/Emission) and environmental media (Air, Ground, Water, Biotic)
 > 
 > **Resources**
 >
