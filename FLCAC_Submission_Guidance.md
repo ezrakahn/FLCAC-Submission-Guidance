@@ -2613,6 +2613,8 @@ ISO 140721:2012: Space data and information transfer systems—Open
 archival information system (OAIS)—Reference model. Available at:
 [<span class="underline">https://www.iso.org/standard/57284.html.</span>](https://www.iso.org/standard/57284.html.)
 
+McBride, B., & Norris, G. (2010). Earthster Core Ontology: Description and Rationale. Version 0.1-SNAPSHOT. New Earth, Boston.
+
 NREL (2009). US Life Cycle Inventory Database Roadmap, Prepared by the
 National Renewable Energy Laboratory (NREL) NREL is a national
 laboratory of the US Department of Energy Office of Energy Efficiency
