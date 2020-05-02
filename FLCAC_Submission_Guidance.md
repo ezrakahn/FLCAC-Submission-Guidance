@@ -2958,7 +2958,7 @@ express Statement of Purpose.
 <td><strong>Input/Output</strong></td>
 <td><strong>Definition</strong></td>
 <td><strong>Default flow units</strong></td>
-<td><strong>Example FLowable(s)</strong></td>
+<td><strong>Example Flowable(s)</strong></td>
 </tr>
 <tr class="even">
 <td><strong>Element or Compound</strong></td>
