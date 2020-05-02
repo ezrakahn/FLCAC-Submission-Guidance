@@ -19,8 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c70388b1-2acf-4fa5-b60e-6c8a67751514" name="Default Changelist" comment="Updating FEDEFL highlights">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="c70388b1-2acf-4fa5-b60e-6c8a67751514" name="Default Changelist" comment="describe preferred flows">
       <change beforePath="$PROJECT_DIR$/FLCAC_Submission_Guidance.md" beforeDir="false" afterPath="$PROJECT_DIR$/FLCAC_Submission_Guidance.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -158,7 +157,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588428841430</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="describe preferred flows">
+      <created>1588429464098</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1588429464098</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -185,7 +191,8 @@
     <MESSAGE value="Updated FEDEFL Table M description" />
     <MESSAGE value="Updating references" />
     <MESSAGE value="Updating FEDEFL highlights" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updating FEDEFL highlights" />
+    <MESSAGE value="describe preferred flows" />
+    <option name="LAST_COMMIT_MESSAGE" value="describe preferred flows" />
   </component>
   <component name="WindowStateProjectService">
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1588363065929">
