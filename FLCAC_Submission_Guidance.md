@@ -1909,7 +1909,7 @@ The process includes three sub-processes: Quarry Operations; Transport and Plant
 <td>
 <strong>Elementary Flows:</strong>
 
-Elementary flows should be named based on the <strong> FEDEFL nomenclature guidelines</strong>. For general elementary flow and see Highlights 1-14 of <span class="underline">Appendix D: FEDEFL Nomenclature Highlights</span>. See the <span class="underline">full <a href="https://cfpub.epa.gov/si/si_public_record_report.cfm?Lab=NRMRL&dirEntryId=341199">FEDEFL Guidance</a></span> for detailed conventions.
+Elementary flows should be named based on the <strong> FEDEFL nomenclature guidelines</strong>. For general elementary flow information see Highlights 1-14 of <span class="underline">Appendix D: FEDEFL Nomenclature Highlights</span>. See the <span class="underline">full <a href="https://cfpub.epa.gov/si/si_public_record_report.cfm?Lab=NRMRL&dirEntryId=341199">FEDEFL Guidance</a></span> for detailed conventions.
 
 <strong>Technosphere Flows:</strong>
 
@@ -2014,7 +2014,7 @@ Conventions</span>***
 <td>(A) Flow</td>
 <td><strong>Elementary Flows:</strong>
 
-Elementary flows should be named based on the <strong> FEDEFL nomenclature guidelines</strong>. For general elementary flow and see Highlights 1-14 of <span class="underline">Appendix D: FEDEFL Nomenclature Highlights</span>. See the <span class="underline">full <a href="https://cfpub.epa.gov/si/si_public_record_report.cfm?Lab=NRMRL&dirEntryId=341199">FEDEFL Guidance</a></span> for detailed conventions.
+Elementary flows should be named based on the <strong> FEDEFL nomenclature guidelines</strong>. For general elementary flow information see Highlights 1-14 of <span class="underline">Appendix D: FEDEFL Nomenclature Highlights</span>. See the <span class="underline">full <a href="https://cfpub.epa.gov/si/si_public_record_report.cfm?Lab=NRMRL&dirEntryId=341199">FEDEFL Guidance</a></span> for detailed conventions.
 
 <strong>Technosphere Flows:</strong>
 
