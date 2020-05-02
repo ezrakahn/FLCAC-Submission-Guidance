@@ -3073,26 +3073,26 @@ Output
 >><strong>*Ground*</strong>
 >
 >*emission/ground
->emission/ground/human-dominated
->emission/ground/human-dominated/agricultural
->emission/ground/human-dominated/agricultural/rural
->emission/ground/human-dominated/agricultural/urban
->emission/ground/human-dominated/commercial
->emission/ground/human-dominated/commercial/urban
->emission/ground/human-dominated/commercial/rural
->emission/ground/human-dominated/industrial
->emission/ground/human-dominated/industrial/rural
->emission/ground/human-dominated/industrial/urban
->emission/ground/human-dominated/residential
->emission/ground/human-dominated/residential/rural
->emission/ground/human-dominated/residential/urban
->emission/ground/subterranean
->emission/ground/terrestrial/barren land
->emission/ground/terrestrial/forest
->emission/ground/terrestrial/grassland
->emission/ground/terrestrial/shurbland
->emission/ground/terrestrial/snow and ice
->emission/ground/terrestrial/wetland*
+> emission/ground/human-dominated,
+> emission/ground/human-dominated/agricultural,
+> emission/ground/human-dominated/agricultural/rural,
+> emission/ground/human-dominated/agricultural/urban,
+> emission/ground/human-dominated/commercial,
+> emission/ground/human-dominated/commercial/urban,
+> emission/ground/human-dominated/commercial/rural,
+> emission/ground/human-dominated/industrial,
+> emission/ground/human-dominated/industrial/rural,
+> emission/ground/human-dominated/industrial/urban,
+> emission/ground/human-dominated/residential,
+> emission/ground/human-dominated/residential/rural,
+> emission/ground/human-dominated/residential/urban,
+> emission/ground/subterranean,
+> emission/ground/terrestrial/barren land,
+> emission/ground/terrestrial/forest,
+> emission/ground/terrestrial/grassland,
+> emission/ground/terrestrial/shurbland,
+> emission/ground/terrestrial/snow and ice,
+> emission/ground/terrestrial/wetland*
 >
 >><strong>*Water*</strong>
 >
