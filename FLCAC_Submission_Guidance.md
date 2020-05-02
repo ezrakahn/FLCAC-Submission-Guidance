@@ -3135,49 +3135,49 @@ Output
 >><strong>*Ground*</strong>
 >
 >*resource/ground
->resource/ground/human-dominated
->resource/ground/human-dominated/agricultural
->resource/ground/human-dominated/agricultural/rural
->resource/ground/human-dominated/agricultural/urban
->resource/ground/human-dominated/commercial
->resource/ground/human-dominated/commercial/rural
->resource/ground/human-dominated/commercial/urban
->resource/ground/human-dominated/residential
->resource/ground/human-dominated/residential/rural
->resource/ground/human-dominated/residential/urban
->resource/ground/human-dominated/rural
->resource/ground/human-dominated/urban
->resource/ground/subterranean
->resource/ground/terrestrial/barren land
->resource/ground/terrestrial/forest
->resource/ground/terrestrial/grassland
->resource/ground/terrestrial/shrubland
->resource/ground/terrestrial/snow and ice
->resource/ground/terrestrial/wetland*
+> resource/ground/human-dominated,
+> resource/ground/human-dominated/agricultural,
+> resource/ground/human-dominated/agricultural/rural,
+> resource/ground/human-dominated/agricultural/urban,
+> resource/ground/human-dominated/commercial,
+> resource/ground/human-dominated/commercial/rural,
+> resource/ground/human-dominated/commercial/urban,
+> resource/ground/human-dominated/residential,
+> resource/ground/human-dominated/residential/rural,
+> resource/ground/human-dominated/residential/urban,
+> resource/ground/human-dominated/rural,
+> resource/ground/human-dominated/urban,
+> resource/ground/subterranean,
+> resource/ground/terrestrial/barren land,
+> resource/ground/terrestrial/forest,
+> resource/ground/terrestrial/grassland,
+> resource/ground/terrestrial/shrubland,
+> resource/ground/terrestrial/snow and ice,
+> resource/ground/terrestrial/wetland*
 >
 >><strong>*Water*</strong>
 >
 >*resource/water
->resource/water/brackish water body
->resource/water/brackish water body/lake
->resource/water/brackish water body/lake/rural
->resource/water/brackish water body/lake/urban
->resource/water/fresh water body
->resource/water/fresh water body/lake
->resource/water/fresh water body/lake/rural
->resource/water/fresh water body/lake/urban
->resource/water/saline water body
->resource/water/saline water body/ocean
->resource/water/subterranean
->resource/water/subterranean/brackish water body
->resource/water/subterranean/brackish water body/confined aquifer
->resource/water/subterranean/brackish water body/unconfined aquifer
->resource/water/subterranean/fresh water body
->resource/water/subterranean/fresh water body/confined aquifer
->resource/water/subterranean/fresh water body/unconfined aquifer
->resource/water/subterranean/saline water body
->resource/water/subterranean/saline water body/confined aquifer
->resource/water/subterranean/saline water body/unconfined aquifer*
+> resource/water/brackish water body,
+> resource/water/brackish water body/lake,
+> resource/water/brackish water body/lake/rural,
+> resource/water/brackish water body/lake/urban,
+> resource/water/fresh water body,
+> resource/water/fresh water body/lake,
+> resource/water/fresh water body/lake/rural,
+> resource/water/fresh water body/lake/urban,
+> resource/water/saline water body,
+> resource/water/saline water body/ocean,
+> resource/water/subterranean,
+> resource/water/subterranean/brackish water body,
+> resource/water/subterranean/brackish water body/confined aquifer,
+> resource/water/subterranean/brackish water body/unconfined aquifer,
+> resource/water/subterranean/fresh water body,
+> resource/water/subterranean/fresh water body/confined aquifer,
+> resource/water/subterranean/fresh water body/unconfined aquifer,
+> resource/water/subterranean/saline water body,
+> resource/water/subterranean/saline water body/confined aquifer,
+> resource/water/subterranean/saline water body/unconfined aquifer*
 
 #### <span class="smallcaps">Highlight 6: Alternative units</span>
 
