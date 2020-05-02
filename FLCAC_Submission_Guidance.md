@@ -2908,7 +2908,7 @@ express Statement of Purpose.
 
 >
 >1. ***Flowable*** - The name of the material, energy, or space (e.g., “Carbon dioxide” or “Water, fresh”) that comes from or goes to the biosphere. This is commonly called “substance” or “flow name” but this term is too limited and the term “flowable” from the Earthster Core Ontology (ECO) is used in the FEDEFL (McBride & Norris, 2010). 
->2. ***Context*** - A set of environmental media/compartments that describe the flow origin or destination (e.g., “Air”). Although the term "compartment" is sometimes used in LCA, the FEDEFL uses the term context to provide a broader meaning that includes the directionality (e.g. “resource” from biosphere or “emission” to biosphere), environmental media (e.g. “Air”, “Water”, “Ground” and “Biotic”), and additional secondary context information that is further described in Section 3.3 of the FEDEFL report. It is mandatory that a flow have a primary context (directionality + environmental media). The FEDEFL also includes preferred flows, which further specify secondary context information such as the type of water body (e.g., lake, river) an emission is discharged to.
+>2. ***Context*** - A set of environmental media/compartments that describe the flow origin or destination (e.g., “Air”). Although the term "compartment" is sometimes used in LCA, the FEDEFL uses the term context to provide a broader meaning that includes the directionality (e.g. “resource” from biosphere or “emission” to biosphere), environmental media (e.g. “Air”, “Water”, “Ground” and “Biotic”), and additional secondary context information that is further described in Section 3.3 of the FEDEFL report. It is mandatory that a flow have a primary context (directionality + environmental media). The FEDEFL also includes preferred flows, which further specify secondary context information such as the type of water body (e.g., lake, river) an emission is discharged to. Highlight 5 provides more detail on secondary context information.
 >3. ***Unit*** - Flow units may be associated with conversion factors that can be used to convert between different units within a flow property (e.g., kg to lbs.) or even between flow properties (e.g., kg to m^3). 
 
 
@@ -3042,7 +3042,7 @@ Output
 </tbody>
 </table>
 
-#### <span class="smallcaps">Highlight 5: Further differentiation context information (secondary context information)</span>
+#### <span class="smallcaps">Highlight 5: Further differentiation of context information (secondary context information)</span>
 
 > Secondary context information provides further details. Not all secondary context information applies to each of the flow classes Below is a complete list of all combinations of primary and secondary flow context: 
 *(It is recommended that users use the appropriate context with as much specificity as possible)*
