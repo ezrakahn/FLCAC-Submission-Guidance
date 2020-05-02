@@ -3097,28 +3097,28 @@ Output
 >><strong>*Water*</strong>
 >
 >*emission/water
->emission/water/brackish water body
->emission/water/brackish water body/lake
->emission/water/brackish water body/lake/rural
->emission/water/brackish water body/lake/urban
->emission/water/fresh water body
->emission/water/fresh water body/lake
->emission/water/fresh water body/lake/rural
->emission/water/fresh water body/lake/urban
->emission/water/fresh water body/river
->emission/water/fresh water body/urban
->emission/water/saline water body
->emission/water/saline water body/ ocean
->emission/water/subterranean
->emission/water/subterranean/brackish water body
->emission/water/subterranean/brackish water body/confined aquifer
->emission/water/subterranean/brackish water body/unconfined aquifer
->emission/water/subterranean/fresh water body
->emission/water/subterranean/fresh water body/confined aquifer
->emission/water/subterranean/fresh water body/ unconfined aquifer
->emission/water/subterranean/saline water body
->emission/water/subterranean/saline water body/ confined aquifer
->emission/water/subterranean/saline water body/unconfined aquifer*
+> emission/water/brackish water body,
+> emission/water/brackish water body/lake,
+> emission/water/brackish water body/lake/rural,
+> emission/water/brackish water body/lake/urban,
+> emission/water/fresh water body,
+> emission/water/fresh water body/lake,
+> emission/water/fresh water body/lake/rural,
+> emission/water/fresh water body/lake/urban,
+> emission/water/fresh water body/river,
+> emission/water/fresh water body/urban,
+> emission/water/saline water body,
+> emission/water/saline water body/ ocean,
+> emission/water/subterranean,
+> emission/water/subterranean/brackish water body,
+> emission/water/subterranean/brackish water body/confined aquifer,
+> emission/water/subterranean/brackish water body/unconfined aquifer,
+> emission/water/subterranean/fresh water body,
+> emission/water/subterranean/fresh water body/confined aquifer,
+> emission/water/subterranean/fresh water body/ unconfined aquifer,
+> emission/water/subterranean/saline water body,
+> emission/water/subterranean/saline water body/ confined aquifer,
+> emission/water/subterranean/saline water body/unconfined aquifer*
 >
 ><strong>Resources</strong>
 >
