@@ -3211,7 +3211,7 @@ However, in some instances this is not possible as users may not know this infor
 #### <span class="smallcaps">Highlight 9: Land use</span>
 
 > 
->Land transformations are not included as elementary flows in the FEDEFL. Transformations are an activity and should be modeled as a process with land inputs. Only land occupations are elementary flows in teh FEDEFL and are named based on the land types. All land occupation should have units of area*time. Any land flows that do not have such units are not in compliance with FEDEFL nomenclature.  
+>Land transformations are not included as elementary flows in the FEDEFL. Transformations are an activity and should be modeled as a process with land inputs. Only land occupations are elementary flows in the FEDEFL and are named based on the land types. All land occupation should have units of area*time. Any land flows that do not have such units are not in compliance with FEDEFL nomenclature.  
 #### 
 
 #### <span class="smallcaps">Highlight 10: Identifying and Formatting ‘Element or Compound’s and ‘Groups of Chemicals’</span>
