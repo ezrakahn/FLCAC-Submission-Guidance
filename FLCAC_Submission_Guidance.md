@@ -3301,7 +3301,7 @@ However, in some instances this is not possible as users may not know this infor
 
 #### <span class="smallcaps">Highlight 14: End-of-life waste </span>
 
->While end-of-life waste flows are technically flows back to the biosphere, they are classified differently than elementary flows and not included in the FEDEFL. Whenever possible, it is recommended that waste be characterized by the 'Element or Compound' or 'Groups of Chemicals' so that flows can be characterized in LCIA methods. When specifics are not possible, it is recommended that users use the ILCD format for waste flows in naming End of life waste. In openLCA, waste flows are maintained in a separate folder.
+>While end-of-life waste flows are technically flows back to the biosphere, they are classified differently than elementary flows and not included in the FEDEFL. Waste sent for further processing or management (e.g., to landfill, incineration) should be considered technosphere flows. Whenever possible, it is recommended that final waste released to the biosphere be characterized by the 'Element or Compound' or 'Groups of Chemicals' so that flows can be characterized in LCIA methods. When specifics are not possible, it is recommended that users use the ILCD format for waste flows in naming End of life waste. 
 
 #####
 # Appendix E - ILCD Nomenclature Rules
