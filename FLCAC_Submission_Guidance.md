@@ -3278,7 +3278,7 @@ However, in some instances this is not possible as users may not know this infor
 </tbody>
 </table>
 
->>*It is recommended that rainwater be named 'Water,fresh' and be a resource from air. Rainwater should only be describing the flow of water from the atmosphere into a rainwater collection systems. Rainwater flowing from a collection system is a technosphere flow as it is NOT flowing directly from the biosphere.
+>>*It is recommended that rainwater be named 'Water, fresh' and be a resource from air. Rainwater should only be describing the flow of water from the atmosphere into a rainwater collection systems. Rainwater flowing from a collection system is a technosphere flow as it is NOT flowing directly from the biosphere.
 >
 >>**When the original source flow does not provide enough detail; the generic term, in this case 'Water' can be used when naming the flow even though this is not a preferred FEDEFL term.
 
