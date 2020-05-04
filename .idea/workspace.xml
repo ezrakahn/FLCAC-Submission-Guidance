@@ -1,25 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BranchesTreeState">
-    <expand>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-    </expand>
-    <select />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="c70388b1-2acf-4fa5-b60e-6c8a67751514" name="Default Changelist" comment="describe preferred flows">
+    <list default="true" id="c41e0291-f48a-4e0d-9547-cd889bf966a3" name="Default Changelist" comment="Updates to US LCI FLCAC Submission Guidance that includes differentiating between technosphere and elementary flows. Elementary flows are based on the FEDEFL guidance, while technosphere and process flows are based on the ILCD guidelines and the NAICS codes (technosphere flow categorization).&#10;Necessary commit">
       <change beforePath="$PROJECT_DIR$/FLCAC_Submission_Guidance.md" beforeDir="false" afterPath="$PROJECT_DIR$/FLCAC_Submission_Guidance.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -29,188 +11,195 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
   </component>
-  <component name="ProjectId" id="1azzeraIiUQ4QViYF8WX07TCoCu" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="1aGGQPrfcy1wRoIqOCmntjhWfZX" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\AEdelen\PycharmProjects\FLCAC-Submssion-Guidance" />
+    </key>
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="c70388b1-2acf-4fa5-b60e-6c8a67751514" name="Default Changelist" comment="" />
-      <created>1587753308874</created>
+      <changelist id="c41e0291-f48a-4e0d-9547-cd889bf966a3" name="Default Changelist" comment="" />
+      <created>1586354500276</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1587753308874</updated>
+      <updated>1586354500276</updated>
     </task>
-    <task id="LOCAL-00001" summary="Updates to FEDEFL description">
-      <created>1588365191624</created>
+    <task id="LOCAL-00001" summary="Updates to US LCI FLCAC Submission Guidance that includes differentiating between technosphere and elementary flows. Elementary flows are based on the FEDEFL guidance, while technosphere and process flows are based on the ILCD guidelines and the NAICS codes (technosphere flow categorization).">
+      <created>1586962348493</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1588365191626</updated>
+      <updated>1586962348493</updated>
     </task>
-    <task id="LOCAL-00002" summary="Fixed definition of elementary flows">
-      <created>1588365420779</created>
+    <task id="LOCAL-00002" summary="Updates to US LCI FLCAC Submission Guidance that includes differentiating between technosphere and elementary flows. Elementary flows are based on the FEDEFL guidance, while technosphere and process flows are based on the ILCD guidelines and the NAICS codes (technosphere flow categorization).">
+      <created>1587053841273</created>
       <option name="number" value="00002" />
       <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
-      <updated>1588365420779</updated>
+      <updated>1587053841273</updated>
     </task>
-    <task id="LOCAL-00003" summary="Fixed acronyms">
-      <created>1588365641641</created>
+    <task id="LOCAL-00003" summary="Updates to US LCI FLCAC Submission Guidance that includes differentiating between technosphere and elementary flows. Elementary flows are based on the FEDEFL guidance, while technosphere and process flows are based on the ILCD guidelines and the NAICS codes (technosphere flow categorization).">
+      <created>1587060961888</created>
       <option name="number" value="00003" />
       <option name="presentableId" value="LOCAL-00003" />
       <option name="project" value="LOCAL" />
-      <updated>1588365641641</updated>
+      <updated>1587060961888</updated>
     </task>
-    <task id="LOCAL-00004" summary="Labeled appendices">
-      <created>1588366443542</created>
+    <task id="LOCAL-00004" summary="Updates to US LCI FLCAC Submission Guidance that includes differentiating between technosphere and elementary flows. Elementary flows are based on the FEDEFL guidance, while technosphere and process flows are based on the ILCD guidelines and the NAICS codes (technosphere flow categorization).">
+      <created>1587144764280</created>
       <option name="number" value="00004" />
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
-      <updated>1588366443542</updated>
+      <updated>1587144764281</updated>
     </task>
-    <task id="LOCAL-00005" summary="Labeled appendices">
-      <created>1588366735798</created>
+    <task id="LOCAL-00005" summary="Updates to US LCI FLCAC Submission Guidance that includes differentiating between technosphere and elementary flows. Elementary flows are based on the FEDEFL guidance, while technosphere and process flows are based on the ILCD guidelines and the NAICS codes (technosphere flow categorization).">
+      <created>1587560310807</created>
       <option name="number" value="00005" />
       <option name="presentableId" value="LOCAL-00005" />
       <option name="project" value="LOCAL" />
-      <updated>1588366735798</updated>
+      <updated>1587560310808</updated>
     </task>
-    <task id="LOCAL-00006" summary="Revised description of EF names">
-      <created>1588367119966</created>
+    <task id="LOCAL-00006" summary="Updates to US LCI FLCAC Submission Guidance that includes differentiating between technosphere and elementary flows. Elementary flows are based on the FEDEFL guidance, while technosphere and process flows are based on the ILCD guidelines and the NAICS codes (technosphere flow categorization).">
+      <created>1587560435669</created>
       <option name="number" value="00006" />
       <option name="presentableId" value="LOCAL-00006" />
       <option name="project" value="LOCAL" />
-      <updated>1588367119966</updated>
+      <updated>1587560435669</updated>
     </task>
-    <task id="LOCAL-00007" summary="Fixed LCIA documentation in EF section">
-      <created>1588367335948</created>
+    <task id="LOCAL-00007" summary="Updates to US LCI FLCAC Submission Guidance that includes differentiating between technosphere and elementary flows. Elementary flows are based on the FEDEFL guidance, while technosphere and process flows are based on the ILCD guidelines and the NAICS codes (technosphere flow categorization).">
+      <created>1587560618748</created>
       <option name="number" value="00007" />
       <option name="presentableId" value="LOCAL-00007" />
       <option name="project" value="LOCAL" />
-      <updated>1588367335948</updated>
+      <updated>1587560618748</updated>
     </task>
-    <task id="LOCAL-00008" summary="Updated TableM2 example">
-      <created>1588367756525</created>
+    <task id="LOCAL-00008" summary="Updates to US LCI FLCAC Submission Guidance that includes differentiating between technosphere and elementary flows. Elementary flows are based on the FEDEFL guidance, while technosphere and process flows are based on the ILCD guidelines and the NAICS codes (technosphere flow categorization).">
+      <created>1587560920577</created>
       <option name="number" value="00008" />
       <option name="presentableId" value="LOCAL-00008" />
       <option name="project" value="LOCAL" />
-      <updated>1588367756525</updated>
+      <updated>1587560920577</updated>
     </task>
-    <task id="LOCAL-00009" summary="Updated FEDEFL names description">
-      <created>1588427455619</created>
+    <task id="LOCAL-00009" summary="Updates to US LCI FLCAC Submission Guidance that includes differentiating between technosphere and elementary flows. Elementary flows are based on the FEDEFL guidance, while technosphere and process flows are based on the ILCD guidelines and the NAICS codes (technosphere flow categorization).">
+      <created>1587561129935</created>
       <option name="number" value="00009" />
       <option name="presentableId" value="LOCAL-00009" />
       <option name="project" value="LOCAL" />
-      <updated>1588427455619</updated>
+      <updated>1587561129935</updated>
     </task>
-    <task id="LOCAL-00010" summary="Updated FEDEFL names description">
-      <created>1588427512735</created>
+    <task id="LOCAL-00010" summary="Updates to US LCI FLCAC Submission Guidance that includes differentiating between technosphere and elementary flows. Elementary flows are based on the FEDEFL guidance, while technosphere and process flows are based on the ILCD guidelines and the NAICS codes (technosphere flow categorization).">
+      <created>1587561306040</created>
       <option name="number" value="00010" />
       <option name="presentableId" value="LOCAL-00010" />
       <option name="project" value="LOCAL" />
-      <updated>1588427512735</updated>
+      <updated>1587561306040</updated>
     </task>
-    <task id="LOCAL-00011" summary="Updated FEDEFL Table M description">
-      <created>1588427949003</created>
+    <task id="LOCAL-00011" summary="Updates to US LCI FLCAC Submission Guidance that includes differentiating between technosphere and elementary flows. Elementary flows are based on the FEDEFL guidance, while technosphere and process flows are based on the ILCD guidelines and the NAICS codes (technosphere flow categorization).">
+      <created>1587561450878</created>
       <option name="number" value="00011" />
       <option name="presentableId" value="LOCAL-00011" />
       <option name="project" value="LOCAL" />
-      <updated>1588427949003</updated>
+      <updated>1587561450878</updated>
     </task>
-    <task id="LOCAL-00012" summary="Updated FEDEFL Table M description">
-      <created>1588428111434</created>
+    <task id="LOCAL-00012" summary="Updates to US LCI FLCAC Submission Guidance that includes differentiating between technosphere and elementary flows. Elementary flows are based on the FEDEFL guidance, while technosphere and process flows are based on the ILCD guidelines and the NAICS codes (technosphere flow categorization).">
+      <created>1587588266298</created>
       <option name="number" value="00012" />
       <option name="presentableId" value="LOCAL-00012" />
       <option name="project" value="LOCAL" />
-      <updated>1588428111434</updated>
+      <updated>1587588266298</updated>
     </task>
-    <task id="LOCAL-00013" summary="Updating references">
-      <created>1588428565303</created>
+    <task id="LOCAL-00013" summary="Updates to US LCI FLCAC Submission Guidance that includes differentiating between technosphere and elementary flows. Elementary flows are based on the FEDEFL guidance, while technosphere and process flows are based on the ILCD guidelines and the NAICS codes (technosphere flow categorization).">
+      <created>1588127463351</created>
       <option name="number" value="00013" />
       <option name="presentableId" value="LOCAL-00013" />
       <option name="project" value="LOCAL" />
-      <updated>1588428565303</updated>
+      <updated>1588127463351</updated>
     </task>
-    <task id="LOCAL-00014" summary="Updating references">
-      <created>1588428677388</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1588428677388</updated>
-    </task>
-    <task id="LOCAL-00015" summary="Updating FEDEFL highlights">
-      <created>1588428841430</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1588428841430</updated>
-    </task>
-    <task id="LOCAL-00016" summary="describe preferred flows">
-      <created>1588429464098</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1588429464098</updated>
-    </task>
-    <option name="localTasksCounter" value="17" />
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
-        <entry key="MAIN">
+        <entry key="1">
           <value>
-            <State />
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="structure">
+                    <value>
+                      <list>
+                        <option value="dir:C:/Users/AEdelen/PycharmProjects/FLCAC-Submssion-Guidance/.idea" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Updates to FEDEFL description" />
-    <MESSAGE value="Fixed definition of elementary flows" />
-    <MESSAGE value="Fixed acronyms" />
-    <MESSAGE value="Labeled appendices" />
-    <MESSAGE value="Revised description of EF names" />
-    <MESSAGE value="Fixed LCIA documentation in EF section" />
-    <MESSAGE value="Updated TableM2 example" />
-    <MESSAGE value="Updated FEDEFL names description" />
-    <MESSAGE value="Updated FEDEFL Table M description" />
-    <MESSAGE value="Updating references" />
-    <MESSAGE value="Updating FEDEFL highlights" />
-    <MESSAGE value="describe preferred flows" />
-    <option name="LAST_COMMIT_MESSAGE" value="describe preferred flows" />
+    <MESSAGE value="Updates to US LCI FLCAC Submission Guidance that includes differentiating between technosphere and elementary flows. Elementary flows are based on the FEDEFL guidance, while technosphere and process flows are based on the ILCD guidelines and the NAICS codes (technosphere flow categorization)." />
+    <option name="LAST_COMMIT_MESSAGE" value="Updates to US LCI FLCAC Submission Guidance that includes differentiating between technosphere and elementary flows. Elementary flows are based on the FEDEFL guidance, while technosphere and process flows are based on the ILCD guidelines and the NAICS codes (technosphere flow categorization)." />
   </component>
   <component name="WindowStateProjectService">
-    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1588363065929">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1588363065929" />
-    <state x="461" y="165" key="SettingsEditor" timestamp="1588364955601">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1588364955601" />
-    <state x="297" y="151" key="Vcs.Push.Dialog.v2" timestamp="1588428852761">
+    <state x="39" y="0" width="1327" height="728" key="CommitChangelistDialog2" timestamp="1588606522257">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="297" y="151" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1588428852761" />
-    <state x="418" y="216" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1588367761713" />
-    <state x="769" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1588364987155">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="39" y="0" width="1327" height="728" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1588606522257" />
+    <state x="463" y="106" key="FileChooserDialogImpl" timestamp="1588607557198">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="769" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1588364987155" />
+    <state x="463" y="106" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1588607557198" />
+    <state x="422" y="73" key="RollbackChangesDialog" timestamp="1588607528583">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="422" y="73" key="RollbackChangesDialog/0.0.1366.728@0.0.1366.728" timestamp="1588607528583" />
+    <state x="275" y="84" key="Vcs.Push.Dialog.v2" timestamp="1588127471083">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="84" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1588127471083" />
+    <state x="384" y="175" key="com.intellij.ide.util.TipDialog" timestamp="1588606374586">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="384" y="175" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1588606374586" />
+    <state x="492" y="268" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1588607122151">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="492" y="268" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1588607122151" />
+    <state x="353" y="143" key="git4idea.merge.GitPullDialog" timestamp="1588607636524">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="353" y="143" key="git4idea.merge.GitPullDialog/0.0.1366.728@0.0.1366.728" timestamp="1588607636524" />
+    <state x="330" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1586360051888">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="330" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1586360051888" />
   </component>
 </project>
