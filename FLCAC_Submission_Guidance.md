@@ -3289,14 +3289,14 @@ However, in some instances this is not possible as users may not know this infor
 >
 >There is no need to include locations in the naming of flowables since this information can be captured as part of the exchange metadata. An exchange is defined as a flowable used in a process with specific situational metadata included to describe the flowable.
 <strong>Example:</strong>
->When a ‘Particulate Matter, <2.5µm’ flowable is used in process to describe the total particulate matter in ‘kg’ emissions to air from coal power plant in Kentucky, USA from January 1, 2019 – December 31, 2019. The flowable takes on the additional context information of an emission to air and units ‘kg’ to become a unique flow. The additional metadata of being from a specific process (e.g. coal power plant) at a specific location (e.g. Kentucky, USA) from a specific time period (e.g. 2019) is part of the exchange. The additional location, time period and process are not part of the FEDEFL nomenclature, but additional metadata to describe the use of this flowable.
+>When a ‘Particulate Matter, <2.5µm’ flowable is used in process to describe the total particulate matter in ‘kg’ emissions to air from coal power plant in Kentucky, USA from January 1, 2019 – December 31, 2019. The flowable takes on the additional context information of an emission to air and units ‘kg’ to become a unique flow. The additional metadata of being from a specific process (e.g., coal power plant) at a specific location (e.g., Kentucky, USA) from a specific time period (e.g., 2019) is part of the exchange. The additional location, time period and process are not part of the FEDEFL nomenclature, but additional metadata to describe the use of this flowable.
 
 #### <span class="smallcaps">Highlight 13: “Biogenic and fossil gases (e.g. methane and carbon dioxide) ” field</span>
 
 > 
 >The FEDEFL nomenclature is founded on the principle that flowables are unique substances. Therefore, when dealing with biogenic or fossil gases the flowables it is recommended not to include these terms. Biogenic carbon dioxide is chemically identical to carbon dioxide and therefore <strong>NOT</strong> a unique substance. 
 
->Currently, naming gases as biogenic is used as a modelling and accounting workaround for LCA. Since the FEDEFL recommends that users do not distinguish biogenic gases, the FEDEFL recommends the following method for ensuring that biogenic gases are accounted for correctly.   A basic rule is to have the gas (e.g. Carbon dioxide) with the context resource/air to account for any uptake. Users should then add a -1 characterization factor (e.g., kg CO2 equivalent/kg) to the GHG LCIA method for this flow to account for this uptake, which will cancel out the “biogenic CO2” emissions. 
+>Currently, naming gases as biogenic is used as a modelling and accounting workaround for LCA. Since the FEDEFL recommends that users do not distinguish biogenic gases, the FEDEFL recommends the following method for ensuring that biogenic gases are accounted for correctly.   A basic rule is to have the gas (e.g., Carbon dioxide) with the context resource/air to account for any uptake. Users should then add a -1 characterization factor (e.g., kg CO2 equivalent/kg) to the GHG LCIA method for this flow to account for this uptake, which will cancel out the “biogenic CO2” emissions. 
 #### 
 
 #### <span class="smallcaps">Highlight 14: End-of-life waste </span>
@@ -3311,7 +3311,7 @@ However, in some instances this is not possible as users may not know this infor
 >
 > All rules paraphrased from the ***International Reference Life Cycle
 > Data (ILCD) System Handbook on Nomenclature and other Conventions***,
-> First edition 2010. EUR 24384 EN and apply to technosphere and process flow naming convetions only. For the complete versions of each
+> First edition 2010. EUR 24384 EN and apply to technosphere and process flow naming conventions only. For the complete versions of each
 > rule with details and examples, please access the handbook at:
 > <span class="underline"><http://eplca.jrc.ec.europa.eu/uploads/MANPROJ-PR-ILCD-Handbook-Nomenclature-and-other-conventions-first-edition-ISBN-fin-v1.0-E.pdf>.</span>
 
