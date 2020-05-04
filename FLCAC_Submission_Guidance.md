@@ -3214,10 +3214,10 @@ However, in some instances this is not possible as users may not know this infor
 >Land transformations are not included as elementary flows in the FEDEFL. Transformations are an activity and should be modeled as a process with land inputs. Only land occupations are elementary flows in the FEDEFL and are named based on the land types. All land occupation should have units of area*time. Any land flows that do not have such units are not in compliance with FEDEFL nomenclature.  
 #### 
 
-#### <span class="smallcaps">Highlight 10: Identifying and Formatting ‘Element or Compound’s and ‘Groups of Chemicals’</span>
+#### <span class="smallcaps">Highlight 10: Identifying and formatting ‘Element or Compound’s and ‘Groups of Chemicals’</span>
 
 > 
-> All ‘Element or Compound’s and ‘Groups of Chemicals’ are identified using the US EPA Substance Registry Services (SRS) and US EPA Chemistry Dashboard databases. No ‘Element or Compound’ or ‘Groups of Chemicals’ flowables may be added to the FEDEFL without some type of identification found in either of the two databases. At this time formatting of the ‘Element or Compound’ and ‘Groups of Chemicals’ flowables reflects the formatting found in SRS and Chemistry dashboard. 
+> All ‘Element or Compound’s and ‘Groups of Chemicals’ are identified using the [US EPA Substance Registry Services (SRS)](https://ofmpub.epa.gov/sor_internet/registry/substreg/home/overview/home.do) and [US EPA Chemistry Dashboard](https://comptox.epa.gov/dashboard). No ‘Element or Compound’ or ‘Groups of Chemicals’ flowables may be added to the FEDEFL without some type of identification found in either of the two databases. At this time formatting of the ‘Element or Compound’ and ‘Groups of Chemicals’ flowables reflects the formatting found in SRS and Chemistry dashboard. 
 
 ><strong>Ions</strong>
 >
