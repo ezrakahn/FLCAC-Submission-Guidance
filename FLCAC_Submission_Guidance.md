@@ -3296,7 +3296,7 @@ However, in some instances this is not possible as users may not know this infor
 > 
 >The FEDEFL nomenclature is founded on the principle that flowables are unique substances. Therefore, when dealing with biogenic or fossil gases the flowables it is recommended not to include these terms. Biogenic carbon dioxide is chemically identical to carbon dioxide and therefore <strong>NOT</strong> a unique substance. 
 
->Currently, naming gases as biogenic is used as a modelling and accounting workaround for LCA. Since the FEDEFL recommends that users do not distinguish biogenic gases, the FEDEFL recommends the following method for ensuring that biogenic gases are accounted for correctly.   A basic rule is to have the gas (e.g. Carbon dioxide) with the context resource/air.  Flows used to account for any uptake be included in a process in the supply chain, to then add a -1 CF to the GHG LCIA method for this flow to account for this uptake which will canceling out the “biogenic CO2” emission. 
+>Currently, naming gases as biogenic is used as a modelling and accounting workaround for LCA. Since the FEDEFL recommends that users do not distinguish biogenic gases, the FEDEFL recommends the following method for ensuring that biogenic gases are accounted for correctly.   A basic rule is to have the gas (e.g. Carbon dioxide) with the context resource/air to account for any uptake. Users should then add a -1 characterization factor (e.g., kg CO2 equivalent/kg) to the GHG LCIA method for this flow to account for this uptake, which will cancel out the “biogenic CO2” emissions. 
 #### 
 
 #### <span class="smallcaps">Highlight 14: End-of-life waste </span>
