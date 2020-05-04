@@ -548,9 +548,9 @@ provided in M-1. General Information Field Conventions. Elementary Flow nomencla
 
 #### Categorization
 
-Datasets from different databases with disparate categorization schemes
+Flows are categorized as either elementary or technosphere flows. Datasets from different databases with disparate categorization schemes
 can prevent connectivity, cause duplications and/or confusion among
-users, and result in a bulky database. Flows are categorized as either elementary or technosphere flows.
+users, and result in a bulky database. 
 
 Therefore, FLCAC has adopted the
 EPA Federal LCA Commons Elementary Flow List (FEDEFL) for elementary flow classification. Elementary flows are further classified into eight classes as described in Appendix D: Highlight 4. The classification of elementary flows employed by the FEDEFL allows for a systematic approach for managing elementary flows on the Federal LCA Commons.
