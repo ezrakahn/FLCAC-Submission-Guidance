@@ -3252,7 +3252,7 @@ However, in some instances this is not possible as users may not know this infor
 
 > 
 ><strong>Assigning fresh, brackish and saline </strong>
->>Whenever possible, users should include the salinity of water flowables. The FEDEFL does include the generic term Water for use when mapping sources that do not specify the salinity and use the context information to capture additional information such as water body type and environmental media. 
+>>Whenever possible, users should include the salinity of water flowables. The FEDEFL does include the generic term Water for use when mapping sources that do not specify the salinity. Context information should be used to capture additional information such as water body type and environmental media. 
 <table>
 <tbody>
 <tr class="odd">
