@@ -3217,11 +3217,11 @@ However, in some instances this is not possible as users may not know this infor
 #### <span class="smallcaps">Highlight 10: Identifying and formatting ‘Element or Compound’s and ‘Groups of Chemicals’</span>
 
 > 
-> All ‘Element or Compound’s and ‘Groups of Chemicals’ are identified using the [US EPA Substance Registry Services (SRS)](https://ofmpub.epa.gov/sor_internet/registry/substreg/home/overview/home.do) and [US EPA Chemistry Dashboard](https://comptox.epa.gov/dashboard). No ‘Element or Compound’ or ‘Groups of Chemicals’ flowables may be added to the FEDEFL without some type of identification found in either of the two databases. At this time formatting of the ‘Element or Compound’ and ‘Groups of Chemicals’ flowables reflects the formatting found in SRS and Chemistry dashboard. 
+> All ‘Element or Compound’s and ‘Groups of Chemicals’ are identified using the [US EPA Substance Registry Services (SRS)](https://ofmpub.epa.gov/sor_internet/registry/substreg/home/overview/home.do) and [US EPA Chemistry Dashboard](https://comptox.epa.gov/dashboard). No ‘Element or Compound’ or ‘Groups of Chemicals’ flowables may be added to the FEDEFL without some type of identification found in either of the two databases. At this time, formatting of the ‘Element or Compound’ and ‘Groups of Chemicals’ flowables reflects the formatting found in SRS and Chemistry dashboard. 
 
 ><strong>Ions</strong>
 >
->>Ions should be named using the following nomenclature using the numerical numbers to identify the ion. Below are some examples of the appropriate nomenclature for ions.
+>>Ions should be named using the numerical numbers to identify the ion. Below are some examples of the appropriate nomenclature for ions.
 
 >*Examples*:
 >
@@ -3240,7 +3240,7 @@ However, in some instances this is not possible as users may not know this infor
 >
 ><strong>Naming of chemicals in combination should be avoided.</strong>
 >
->>When mapping it is better to estimate the conversion factor for each chemical and name a chemical as individual chemicals rather than by group or in combination, to improve the connection between LCI data and LCIA characterization factors. 
+>>When mapping, it is better to estimate the conversion factor for each chemical and name a chemical as an individual speciated chemical rather than by chemical group or in combination. This improves the connection between LCI data and LCIA characterization factors and will yield more accurate results. 
 
 >*Example*
 >

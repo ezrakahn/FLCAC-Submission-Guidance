@@ -19,7 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c70388b1-2acf-4fa5-b60e-6c8a67751514" name="Default Changelist" comment="land use revision" />
+    <list default="true" id="c70388b1-2acf-4fa5-b60e-6c8a67751514" name="Default Changelist" comment="links to SRS and Chem Dashboard">
+      <change beforePath="$PROJECT_DIR$/FLCAC_Submission_Guidance.md" beforeDir="false" afterPath="$PROJECT_DIR$/FLCAC_Submission_Guidance.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -204,7 +206,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588625449077</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="links to SRS and Chem Dashboard">
+      <created>1588625713458</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1588625713458</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -235,7 +244,8 @@
     <MESSAGE value="Alt units image" />
     <MESSAGE value="geological flows revision" />
     <MESSAGE value="land use revision" />
-    <option name="LAST_COMMIT_MESSAGE" value="land use revision" />
+    <MESSAGE value="links to SRS and Chem Dashboard" />
+    <option name="LAST_COMMIT_MESSAGE" value="links to SRS and Chem Dashboard" />
   </component>
   <component name="WindowStateProjectService">
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1588363065929">
@@ -246,10 +256,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="165" key="SettingsEditor/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1588364955601" />
-    <state x="417" y="216" key="Vcs.Push.Dialog.v2" timestamp="1588625456328">
+    <state x="417" y="216" key="Vcs.Push.Dialog.v2" timestamp="1588625719504">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="417" y="216" key="Vcs.Push.Dialog.v2/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1588625456328" />
+    <state x="417" y="216" key="Vcs.Push.Dialog.v2/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1588625719504" />
     <state x="297" y="151" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1588428852761" />
     <state x="418" y="216" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1588367761713" />
     <state x="769" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1588364987155">
