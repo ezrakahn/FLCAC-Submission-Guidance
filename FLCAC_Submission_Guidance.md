@@ -3201,14 +3201,14 @@ Output
 > In general, when creating flows to represent the extraction of raw resources, it is recommended that the name of the raw material being extracted be used. For raw material that is used to produce energy (e.g. fuels), it is important to note that in the FEDEFL there exists default conversion factors (higher heating values (HHV)) to convert the ‘kg’ of raw resource into an energy content. Users <strong>should</strong> apply an increase (e.g., 5-10%) in their Cumulative Energy Demand (CED) during refining to address the energy loss from the raw material to the refined material for all non-renewable fuels. 
 > 
 
-#### <span class="smallcaps">Highlight 8: Minerals, Metals and ores</span>
+#### <span class="smallcaps">Highlight 8: Minerals, metals and ores</span>
 
 > 
-> When modeling geological flows, the raw resource, or mineral names should be used as the elementary flow flowable. The reason for this recommendation is that this method requires users to track flows through the technosphere transformations to create the metals that are used during manufacturing. When mining metals, gangue or excess rock and non-valuable products as well as trace elements/metals are part of the initial raw resource extraction process. By modeling the raw material mineral, users can account for these by-products in the refining process. 
-However, in some instances this is not possible as users may not know this information. Therefore, metals as raw resources are still included in the ‘Geological’ flow class. Users should be careful when using these flows that they account for the raw material losses from extraction through refining. It is recommended that users apply 5-10% loss of material during refining when calculating the value of the raw material.
+> When modeling geological flows, the raw resource, or mineral names should be used as the elementary flow flowable. The reason for this recommendation is that this method requires users to track flows through the technosphere transformations to create the metals that are used during manufacturing. Mining metals, gangue or excess rock and non-valuable products as well as trace elements/metals are part of the initial raw resource extraction process. By modeling the raw material mineral, users can account for these by-products in the refining process. 
+However, in some instances this is not possible as users may not know this information. Therefore, metals as raw resources are still included in the ‘Geological’ flow class. Users should be careful when using these flows that they account for the raw material losses from extraction through refining. It is recommended that users apply a loss of material (e.g., 5-10%) during refining when back-calculating the input quantity of the raw material.
 
 > 
-#### <span class="smallcaps">Highlight 9: Land Use</span>
+#### <span class="smallcaps">Highlight 9: Land use</span>
 
 > 
 >Land transformations are not included as elementary flows in the FEDEFL. Transformations are an activity and should be modeled as a process with land inputs. Only land occupations are flows elementary flows and are named based on the land types. All land occupation should have units of area*time. Any land flows that do not have such units are not in compliance with FEDEFL nomenclature.  
