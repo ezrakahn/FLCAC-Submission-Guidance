@@ -3198,7 +3198,7 @@ Output
 #### <span class="smallcaps">Highlight 7: Geological ‘fuel’ flows, how to use alternative units and account for energy losses</span>
 
 > 
-> In general, when creating flows to represent the extraction of raw resources that the name of the raw material being extracted be used. For raw material that are used to produce energy (e.g. fuels), it is important to note that in the FEDEFL there exists default conversion factors (higher heating values (HHV)) to convert the ‘kg’ of raw resource into an energy content. The FEDEFL conversion factors should represent the HHV for the raw material, as this is the correct conversion factor.  Users <strong>should</strong> apply a 5-10% increase in their Cumulative Energy Demand (CED) during refining to address the energy loss from the raw material to the refined material for all non-renewable fuels. 
+> In general, when creating flows to represent the extraction of raw resources, it is recommended that the name of the raw material being extracted be used. For raw material that are used to produce energy (e.g. fuels), it is important to note that in the FEDEFL there exists default conversion factors (higher heating values (HHV)) to convert the ‘kg’ of raw resource into an energy content. The FEDEFL conversion factors should represent the HHV for the raw material, as this is the correct conversion factor.  Users <strong>should</strong> apply a 5-10% increase in their Cumulative Energy Demand (CED) during refining to address the energy loss from the raw material to the refined material for all non-renewable fuels. 
 > 
 
 #### <span class="smallcaps">Highlight 8: Minerals, Metals and ores</span>
