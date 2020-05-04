@@ -3188,7 +3188,7 @@ Output
 
 > Some flows can be used with different units, e.g. radioactive chemicals can use the ‘kg’ or ‘kBq’ units. In instances where multiple units are possible, one unit is set as the FEDEFL default unit and other units are considered alternative units. All flows with an alternative unit exist within the AltUnit files on [github](https://github.com/USEPA/Federal-LCA-Commons-Elementary-Flow-List/tree/master/fedelemflowlist/input) by flow class.
 
->![](./media/Altunitsimage.png)
+>![](./media/Altunits.png)
 >
 >Alternate units exist using a conversion factor between the different unit types. For each alternate unit there is a single default conversion factor. When mapping flows from an existing source to the FEDEFL users may input their own conversion factors.
  

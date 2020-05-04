@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c41e0291-f48a-4e0d-9547-cd889bf966a3" name="Default Changelist" comment="Updates to US LCI FLCAC Submission Guidance that includes differentiating between technosphere and elementary flows. Elementary flows are based on the FEDEFL guidance, while technosphere and process flows are based on the ILCD guidelines and the NAICS codes (technosphere flow categorization).&#10;Necessary commit">
+    <list default="true" id="c41e0291-f48a-4e0d-9547-cd889bf966a3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FLCAC_Submission_Guidance.md" beforeDir="false" afterPath="$PROJECT_DIR$/FLCAC_Submission_Guidance.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -130,7 +131,28 @@
       <option name="project" value="LOCAL" />
       <updated>1588127463351</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Addition of Alt units image">
+      <created>1588607759593</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1588607759593</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Addition of Alt units image">
+      <created>1588607852160</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1588607852160</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Addition of Alt units image">
+      <created>1588607959611</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1588607959611</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -166,13 +188,14 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Updates to US LCI FLCAC Submission Guidance that includes differentiating between technosphere and elementary flows. Elementary flows are based on the FEDEFL guidance, while technosphere and process flows are based on the ILCD guidelines and the NAICS codes (technosphere flow categorization)." />
-    <option name="LAST_COMMIT_MESSAGE" value="Updates to US LCI FLCAC Submission Guidance that includes differentiating between technosphere and elementary flows. Elementary flows are based on the FEDEFL guidance, while technosphere and process flows are based on the ILCD guidelines and the NAICS codes (technosphere flow categorization)." />
+    <MESSAGE value="Addition of Alt units image" />
+    <option name="LAST_COMMIT_MESSAGE" value="Addition of Alt units image" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="39" y="0" width="1327" height="728" key="CommitChangelistDialog2" timestamp="1588607850713">
+    <state x="39" y="0" width="1327" height="728" key="CommitChangelistDialog2" timestamp="1588607957834">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="39" y="0" width="1327" height="728" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1588607850713" />
+    <state x="39" y="0" width="1327" height="728" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1588607957834" />
     <state x="463" y="106" key="FileChooserDialogImpl" timestamp="1588607557198">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -189,14 +212,14 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="384" y="175" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1588606374586" />
-    <state x="492" y="268" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1588607122151">
+    <state x="492" y="268" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1588608242110">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="492" y="268" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1588607122151" />
-    <state x="353" y="143" key="git4idea.merge.GitPullDialog" timestamp="1588607636524">
+    <state x="492" y="268" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1588608242110" />
+    <state x="353" y="143" key="git4idea.merge.GitPullDialog" timestamp="1588608089375">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="353" y="143" key="git4idea.merge.GitPullDialog/0.0.1366.728@0.0.1366.728" timestamp="1588607636524" />
+    <state x="353" y="143" key="git4idea.merge.GitPullDialog/0.0.1366.728@0.0.1366.728" timestamp="1588608089375" />
     <state x="330" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1586360051888">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
