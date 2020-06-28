@@ -25,6 +25,15 @@ TODO: An explaination on what is citable from the LCA Commons perspective and ho
 
 https://data.nal.usda.gov/ag-data-commons-doi-guidelines-0
 
+There is variability in what constitutes a citable unit of information in LCA, and what is meant by a "dataset"
+
+Regarding guidance for citable datasets, my current thinking is:
+
+1. The datasets is a citable contribution to the scholarly record
+2. There exists a published or accessible report describing the datasets development and it's original intention and application.
+
+
+
 #### How to create a source DOI and associate it with an openLCA process
 To associate an existing DOI to an openLCA process, the first step is to create a new DOI source from the navigation tree.  Give the source a suitable name using the convention:
 
