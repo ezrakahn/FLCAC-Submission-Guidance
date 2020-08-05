@@ -1,5 +1,7 @@
 # What is the Federal LCA Commons?
+The Federal LCA Commons is an interagency community-of-practice focused on building synergies around sustainability research and policy within the United States government. The mission of the LCA Commons is to advance LCA data, research, and information systems; improve modelling methods and consistency; and increase public access to Federal LCA data and resources.  This handbook and the www.lcacommons.gov web repository are key tools for improving consistency and insuring access to federal LCA products.
 # Who can publish on the LCA Commons?
+
 # What can be published on the LCA Common?
 # How to publish on www.lcacommons.gov
 ## Key terminology
