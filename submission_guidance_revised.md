@@ -1,8 +1,15 @@
+![](./media/image1.jpg)
+
+*<span class="smallcaps">Federal LCA Commons (FLCAC)</span>*
+
 # What is the Federal LCA Commons?
 The Federal LCA Commons is an interagency community-of-practice focused on building synergies around sustainability research and policy within the United States government. The mission of the LCA Commons is to advance LCA data, research, and information systems; improve modelling methods and consistency; and increase public access to Federal LCA data and resources.  This handbook and the www.lcacommons.gov web repository are key tools for improving consistency and insuring access to federal LCA products.
 # Who can publish on the LCA Commons?
+Anyone can publish LCA Commons compliant LCA data sets and resources with the LCA Commons.  Representatives of industry groups and academia interested in publishing with the LCA Commons should consider submitting data with the USLCI, operated by the National Renewable Energy Lab. Members of the federal government, or their official representatives, can publish through the Federal LCA Commons.  Additionally, LCA data products produced through USDA funding can be published on the LCA Commons through the National Agricultural Library.
 
-# What can be published on the LCA Common?
+Publishing data on the LCA Commons comes with the expectation that data submitters have sufficient capacity to prepare data to be compliant with this guidance, and to study and successfully operate the publication workflow.  Please feel free to contact us to determine where might be the best home for your data.  
+# What can be published on the LCA Commons?
+
 # How to publish on www.lcacommons.gov
 ## Key terminology
 ## Overview of the preparation and publication process
