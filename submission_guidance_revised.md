@@ -1,15 +1,21 @@
 ![](./media/image1.jpg)
 
-*<span class="smallcaps">Federal LCA Commons (FLCAC)</span>*
 
+Thank you for your interest in providing access to your life cycle inventory (LCI) data through the LCA Commons. To facilitate accurate interpretation and reuse, data sets submitted to the LCI repository must adhere to specific data documentation, formatting, and nomenclature requirements.
 # What is the Federal LCA Commons?
 The Federal LCA Commons is an interagency community-of-practice focused on building synergies around sustainability research and policy within the United States government. The mission of the LCA Commons is to advance LCA data, research, and information systems; improve modelling methods and consistency; and increase public access to Federal LCA data and resources.  This handbook and the www.lcacommons.gov web repository are key tools for improving consistency and insuring access to federal LCA products.
 # Who can publish on the LCA Commons?
-Anyone can publish LCA Commons compliant LCA data sets and resources with the LCA Commons.  Representatives of industry groups and academia interested in publishing with the LCA Commons should consider submitting data with the USLCI, operated by the National Renewable Energy Lab. Members of the federal government, or their official representatives, can publish through the Federal LCA Commons.  Additionally, LCA data products produced through USDA funding can be published on the LCA Commons through the National Agricultural Library.
+Members of the federal government and their official agents, employed in the development and distribution of Federal Data Products, may publish their work through the Federal LCA Commons.
 
-Publishing data on the LCA Commons comes with the expectation that data submitters have sufficient capacity to prepare data to be compliant with this guidance, and to study and successfully operate the publication workflow.  Please feel free to contact us to determine where might be the best home for your data.  
+Representatives of industry groups and academia interested in publishing with the LCA Commons should consider submitting data with the USLCI, operated by the National Renewable Energy Lab. Additionally, LCA data products produced through USDA funding can be published on the LCA Commons through the National Agricultural Library.
+
+Publishing data on the LCA Commons comes with the expectation that data submitters have sufficient capacity to prepare data to be compliant with this guidance, and to study and successfully operate the publication workflow.  
 # What can be published on the LCA Commons?
+The Federal LCA Commons is an access point for Federal Data Products: products of federally funded and internally executed LCA research. They have been subject to internal, agency review and clearance processes, which confer additional value through quality assurance.
 
+Datasets should represent novel contributions to the LIfe Cycle Assessment field.  Gate-to-gate unit processes and collections of processes associated as product systems are preferred to vertically aggregated cradle-to-gate inventories, to facilitate transparency and promote reuse.   Multifunctional unit processes should include all co-products, and may also include allocation factors or displaced products (according to the discretion of the submitter). 
+
+Data from industry and other research efforts may be appropriate for the USLCI or other specialty repositories accessable through the LCA Commons web portal.  Please contact the LCA Commons staff to determine if the LCA Commons is right for you.
 # How to publish on www.lcacommons.gov
 ## Key terminology
 ## Overview of the preparation and publication process
