@@ -22,7 +22,59 @@ Data from industry and other research efforts may be appropriate for the USLCI o
 ## Roles and Actors
 ## Introduction to the publication description
 ## Metadata descriptors and publication conventions
-### Elementary Flows
+### Naming Conventions
+#### Naming Conventions: Unit Processes
+In the naming of processes and flows, the LCA Commons treats processes as activities performing one or more functions, and flows as materials, energy, or services that can be exchanged.  Process names shall describe the activity and any qualities specific to it.  Flow names shall describe the flow and any qualities specific to it, and *shall be considered independent from any activity and process*, thus process qualities or references will not be included in the flow name or documentation.  
+##### Origianl Unit Process Nomenclature
+Name all *original* ***Unit Processes*** that you submit to the LCA Commons according to the ILCD naming convention (see Metadata Guidelines[Link] below for element definitions).  The name should reflect the **process or activity** as follows: *base name; treatment, routes, standards; production type, location type; quantitative flow properties*
+
+For example:
+<div align="center"><em>
+Clinker; average mineral mix, at kiln, 1415 kg/m3
+</em></div>
+
+##### External Database Unit Process Nomenclature
+DO NOT submit unit processes which belong to commercial databases. For guidance on dealing with flows from external database unit processes, see the External Database Product/Intermediate Flow Nomenclature section [LINK].
+
+##### Modified External Database Unit Process Nomenclature
+If you have modified or customized a unit process from a commercial database, submit the process named like the original process with an indication that it is a modified version of the original. Document the source of the original process and detail the changes in the process documentation. Be sure to review your database license or contact your data vendor if there are any questions about publishing modified commercial datasets. 
+
+For example, a modified ecoinvent process should look like this:
+<div align="center"><em>
+carbon dioxide liquid, at plant/RER U with US electricity
+</em></div>
+
+#### Naming Conventions: Flows
+The LCA Commons supports three classes of flows: technosphere, elementary, and waste, consistent with the openLCA data model.
+##### Technosphere Flows
+Technosphere flows (also commonly known as product flows, or intermediate flows) represent goods, services, or energy exchange between processes.  Technosphere flows *remain in the system boundary* and have *economic or social value*.
+
+Name all original product and intermediate flows according to the ILCD naming convention (see Process Metadata for instructions [LINK]).  The name should reflect the product or service (i.e., not the activity which produced it) as follows: *base name; treatment, routes, standards; production type, location type; quantitative flow properties.*
+
+All four components of the above naming convention are required as applicable to a flow.  In cases where a naming component is not applicable, simply exclude it from the flow name.
+
+For example:
+<div align="center"><em>
+corn grain; average tillage practice mix; at farm; 15% moisture
+</em></div>
+<br />
+
+*External Database Technosphere Flows*<br />
+When technosphere flows belong (or link to) an external software package or database, use exactly the same name, location, and units that are used in the external datasbase, and categorize them according to their provenance (see "Categories"[LINK] section for more detail).
+
+##### Elementary Flows
+Elementary flows (also commonly known as environmental flows) originate or terminate "in nature", outside the economic system boundary.  They are typically included in an inventory and contribute to the LCIA analysis.
+
+The LCA Commons employs the Federal Elementary Flow List (FEDEFL) for elementary flow nomenclature and organization.  The FEDEFL is intended as a comprehensive, canonical list of flows compatible with all open LCIA methods.  Details on how to access and use the flow list can be found in Appendix [XXX] [LINK].  Additional details on the list and available workflows for translating to other nomenclatures can be accessed on the FEDEFL [<span class="underline">github repository wiki page](https://github.com/USEPA/Federal-LCA-Commons-Elementary-Flow-List/wiki) or the [<span class="underline">FEDEFL guidance document](https://cfpub.epa.gov/si/si_public_record_report.cfm?Lab=NRMRL&dirEntryId=341199).
+
+##### Waste Flows
+Waste flows are substances that must be handled by additional activities or processes.  They are within the system boundary but they do not have economic value.
+
+The LCA Commons does not currently have guidance on documenting waste flows.
+
+#### Product Systems
+OpenLCA names product systems based on the name of reference process within the product system. Creating the product system from the reference unit process in openLCA will confer the name of that process. 
+
 ### Categorization
 ### Parameters
 ### Locations
