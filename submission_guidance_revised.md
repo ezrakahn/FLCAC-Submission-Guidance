@@ -16,12 +16,32 @@ The Federal LCA Commons is an access point for Federal Data Products: products o
 Datasets should represent novel contributions to the LIfe Cycle Assessment field.  Gate-to-gate unit processes and collections of processes associated as product systems are preferred to vertically aggregated cradle-to-gate inventories, to facilitate transparency and promote reuse.   Multifunctional unit processes should include all co-products, and may also include allocation factors or displaced products (according to the discretion of the submitter). 
 
 Data from industry and other research efforts may be appropriate for the USLCI or other specialty repositories accessable through the LCA Commons web portal.  Please contact the LCA Commons staff to determine if the LCA Commons is right for you.
+
 # How to publish on www.lcacommons.gov
+The www.lcacommons.gov web repository is directly integrated into openLCA modeling software (both the repository and openLCA are developed and maintained by GreenDelta GMH [LINK]).  The openLCA desktop LCA tool is used for the preparation and submission of datasets to the LCA Commons.
+
+Download the latest version of openLCA here [LINK]
+
+Tutorials for using openLCA and importing data from other software and formats can be found here [LINK]
+
 ## Key terminology
+(Do we need this?)
 ## Overview of the preparation and publication process
+If you are interested in publishing your LCA data on www.lcacommons.gov, please contact Ezra Kahn at the National Agricultural Library to get started.  (ezra.kahn@usda.gov)
+
+The publication workflow has two main components -- openLCA desktop software for data preparation, and the LCA Collaboration server (the repository at www.lcacommons.gov) for data publication.  Those that are interested in publishing their datasets on the LCA Commons must either develop their models using openLCA, or export their datasets from their preferred modeling software and import them into openLCA.  Instructions for doing this can be found on the openLCA documentation [LINK].  Once datasets are in openLCA, submitters should review them for consistency in representation and the results they produce, and then complete their documentation by filling out the metadata fields as described in this guidance.  Once datasets are ready for publication, they can be "committed" to the LCA Commons through the openLCA repository management feature, and the LCA Commons staff at the National Agricultural Library will make them public.
+
+The LCA Commons organizes datasets into repositories, and groups of repositories.  A **repository** is typically a collection of datasets that are related.  The relation could be context or application focused, such as unit processes belonging to a larger gate-to-gate system.  The datasets in a repository could also be related through an administrative focus, such as unit processes developed as part of a particular grant or research project.  **Groups** on the LCA Commons are collections of repositories owned or maintained by a single organization.  Typically, a group will have one or several people who maintain all of the repositories of an organization.  Examples of different groups currently on the LCA Commons are the National Renewable Energy Laboratory and US EPA, two organizations that manage various context specific repositories.
+
+The National Agricultural Library will create groups and repositories for new and returning users upon request.
+
+ 
 ## Roles and Actors
+
 ## Introduction to the publication description
+
 ## Metadata descriptors and publication conventions
+This section gives an overview on conventions for preparing and documenting data for publication on the LCA Commons.  Fields for metadata and LCA descriptors are accessible through the openLCA interface.  Detailed specifications for metadata and instructions for entering them into openLCA can be found in the Appendicies.
 ### Naming Conventions
 #### Naming Conventions: Unit Processes
 In the naming of processes and flows, the LCA Commons treats processes as activities performing one or more functions, and flows as materials, energy, or services that can be exchanged.  Process names shall describe the activity and any qualities specific to it.  Flow names shall describe the flow and any qualities specific to it, and *shall be considered independent from any activity and process*, thus process qualities or references will not be included in the flow name or documentation.  
@@ -76,8 +96,12 @@ The LCA Commons does not currently have guidance on documenting waste flows.
 OpenLCA names product systems based on the name of reference process within the product system. Creating the product system from the reference unit process in openLCA will confer the name of that process. 
 
 ### Categorization
+Unit process and technosphere flows are categorized using the North American Industry Classification System (NAICS).  More general categories correspond to a 2 digit code, and sub-categories have a 4 digit code.  Documentation and a full list of codes can be found at: [<span class="underline">https://www.census.gov/eos/www/naics/</span>](https://www.census.gov/eos/www/naics/).
+
 ### Parameters
+Quantities of exchanges can be defined by parametric equations in unit process datasets submitted to the LCA Commons.  The LCA Commons does not maintain specifications for the preparation and publication of parameters.  Parameters, parametric equations, their relationships with exchanges, and appropriate and intended use should be well documented and made available through an appropriate repository, and referenced from the unit process documentation.  Please contact LCA Commons staff with any questions regarding parameters.
 ### Locations
+Use the highest level of resolution when identifing locations, and document locations using standardized nomenclature.  For example, if documenting the US state of Colorado, use ISO 3166-2 to identify the Colorado as US-CO, and refernce ISO 3166-2 in the geography description field.
 ### DOIs
 #### Basics
 A DOI, or Digital Object Identifier, is a persistent and unique identifier assigned to an object. This DOI permanently identifies content and related metadata for an object over the course of its lifecycle. DOI strings, in combination with a URL prefix, resolve to internet locations. Information about a digital object may change over time, including where to find it and who owns it, but its DOI will not change. The benefits of a DOI include greater discoverability and access to uniquely identified content, accessibility for long-term use, and citation of publications and research data for impact analysis.
@@ -88,6 +112,7 @@ Currently, the LCA Commons does not mint or issue DOIs.  To obtain a DOI, a rese
 Datasets with existing DOIs can be directlly linked to the LCA Commons through the creation of a "source" object in openLCA.  An openLCA source is a reference to an external resource, and can be directly associated with an openLCA process in the Modeling and Validation section of the process's metadata. 
 
 #### What dataset gets a DOI
+(This should all be moved to an internal operations document)
 TODO: An explaination on what is citable from the LCA Commons perspective and how to guide people to making that determination.  The Ag Data Commons uses metrics that can serve as a guide for LCAC (see section 3.2 on externally published resources) :
 
 https://data.nal.usda.gov/ag-data-commons-doi-guidelines-0
