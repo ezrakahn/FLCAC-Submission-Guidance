@@ -125,21 +125,6 @@ Currently, the LCA Commons does not mint or issue DOIs.  To obtain a DOI, a rese
 
 Datasets with existing DOIs can be directlly linked to the LCA Commons through the creation of a "source" object in openLCA.  An openLCA source is a reference to an external resource, and can be directly associated with an openLCA process in the Modeling and Validation section of the process's metadata. 
 
-#### What dataset gets a DOI
-(This should all be moved to an internal operations document)
-TODO: An explaination on what is citable from the LCA Commons perspective and how to guide people to making that determination.  The Ag Data Commons uses metrics that can serve as a guide for LCAC (see section 3.2 on externally published resources) :
-
-https://data.nal.usda.gov/ag-data-commons-doi-guidelines-0
-
-There is variability in what constitutes a citable unit of information in LCA, and what is meant by a "dataset"
-
-Regarding guidance for citable datasets, my current thinking is:
-
-1. The datasets is a citable contribution to the scholarly record
-2. There exists a published or accessible report describing the datasets development and it's original intention and application.
-
-
-
 #### How to create a source DOI and associate it with an openLCA process
 To associate an existing DOI to an openLCA process, the first step is to create a new DOI source from the navigation tree.  Give the source a suitable name using the convention:
 
