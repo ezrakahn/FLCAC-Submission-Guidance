@@ -37,8 +37,22 @@ The National Agricultural Library will create groups and repositories for new an
 
  
 ## Roles and Actors
+Data publication on the LCA Commons involves serveral recurring activities classified as *roles*.  Here, roles describe a set of responsilbilities or requisite skill sets.  A single person can have multiple roles.  It is suggested that a role is limited to a single person, though multiple people may perform the same role for the same submission if necessary.
+	
+### Data submitter roles
+- Data owner: The data owner is a person or organization that funded, oversaw, or controls the project or program responsible for the creation of the submitted dataset.
 
-## Introduction to the publication description
+- Data generator: The data generator is a person who was directly involved in the development of the datasets. This person has knowledge of the representativness of the models, the underlying assumptions, and the goal and scope of the study they were produced for.  This person would also serve as a point of contact for technical questions regarding appropriate interpretation and reuse of the data.
+
+- Data documenter: the data documenter is the person who prepared the datasets for publication.  This person is expected to be familiar with the datasets being submitted, with the LCA Commons metadata convetions, with the openLCA information structure, and the Collaboration Server workflow.  The data documenter will serve as the point of contact for LCA Commons staff regarding data publication issues.
+
+### LCA Commons roles
+- Metadata librarian: the metadata librarian at the LCA Commons can assist data submitters with interpreting and preparing their LCA datasets for submission.
+
+- Repository manager: the repository manager controls access to the LCA Commons Collaboration Server, including making new repositories, creating user accounts and managing permissions, and making datasets public.	
+
+## Introduction to Preparation of Data for Publication
+The following section presents an introduction to the metadata descriptors and conventions LCA Commons uses to implement ISO 14048 guidance using available conventions where possible.  Datasets are prepared using the openLCA desktop LCA modeling software.  
 
 ## Metadata descriptors and publication conventions
 This section gives an overview on conventions for preparing and documenting data for publication on the LCA Commons.  Fields for metadata and LCA descriptors are accessible through the openLCA interface.  Detailed specifications for metadata and instructions for entering them into openLCA can be found in the Appendicies.
