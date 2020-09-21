@@ -140,12 +140,12 @@ With the DOI source created, it can be associated to an openLCA process by addin
 The following appendices provide detailed guidance for preparing datasets, including examples and workflows.
 ## [Metadata Tables, Guidance, and Examples](appendices/metadata_tables.md)
 ## [Federal Elementary Flow List Detailed Description](appendices/FedEFL_Nomenclature_Highlights.md)
-# [Publishing Data With Collaboration Server](collaboration_server_how_to.md)
+## [Publishing Data With Collaboration Server](collaboration_server_how_to.md)
 guidance on getting started using the collaboration server
-# Importing Authoritative Datasets with the Starter Database
-# [Publication, Use, and Reuse Licenses](licenses.md)
+## Importing Authoritative Datasets with the Starter Database
+## [Publication, Use, and Reuse Licenses](licenses.md)
 
-# Publication Workflow descriptions
+### Publication Workflow descriptions
 (not sure if necessary)
 # References
 https://www.iso.org/obp/ui/#iso:std:iso:26324:ed-1:v1:en
