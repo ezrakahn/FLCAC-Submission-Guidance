@@ -55,7 +55,9 @@ Data publication on the LCA Commons involves serveral recurring activities class
 The following section presents an introduction to the metadata descriptors and conventions LCA Commons uses to implement ISO 14048 guidance using available conventions where possible.  Datasets are prepared using the openLCA desktop LCA modeling software.  
 
 ## Metadata descriptors and publication conventions
-This section gives an overview on conventions for preparing and documenting data for publication on the LCA Commons.  Fields for metadata and LCA descriptors are accessible through the openLCA interface.  Detailed specifications for metadata and instructions for entering them into openLCA can be found in the Appendicies.
+This section gives an overview on conventions for preparing and documenting data for publication on the LCA Commons. The use of authoritative data elements, such as Elementary Flow names, categories, and impact methods require importing database templates from the www.lcacommons.gov repository.  Creating copies of authoritative elements in openLCA will break links and dependencies with other reference objects or related datasets.
+
+Fields for metadata and LCA descriptors are accessible through the openLCA interface.  Detailed specifications for metadata and instructions for entering them into openLCA can be found in the Appendicies.
 ### Naming Conventions
 #### Naming Conventions: Unit Processes
 In the naming of processes and flows, the LCA Commons treats processes as activities performing one or more functions, and flows as materials, energy, or services that can be exchanged.  Process names shall describe the activity and any qualities specific to it.  Flow names shall describe the flow and any qualities specific to it, and *shall be considered independent from any activity and process*, thus process qualities or references will not be included in the flow name or documentation.  
@@ -124,7 +126,7 @@ DOIs require a commitment from the provider to maintain the URL associated with 
 Currently, the LCA Commons does not mint or issue DOIs.  To obtain a DOI, a researcher must submit a request for a DOI with an issuing repository, which will often be the authoritative landing page for the dataset.  For example, USDA funded research can obtain a DOI by submitting a request to the Ag Data Commons (data.nal.usda.gov) which will create a record (with extensive metadata) and persistent URL for the datatset.  The Ag Data Commons will then mint a DOI that will resolve to this record.  
 
 Datasets with existing DOIs can be directlly linked to the LCA Commons through the creation of a "source" object in openLCA.  An openLCA source is a reference to an external resource, and can be directly associated with an openLCA process in the Modeling and Validation section of the process's metadata. 
-
+	
 #### How to create a source DOI and associate it with an openLCA process
 To associate an existing DOI to an openLCA process, the first step is to create a new DOI source from the navigation tree.  Give the source a suitable name using the convention:
 
@@ -137,10 +139,13 @@ Enter the preferred citation in the "Text reference" field and the year of publi
 
 With the DOI source created, it can be associated to an openLCA process by adding it to the sources table in the Modeling and Validation section of the metadata.
 
-
+# Appendices
+The following appendices provide detailed guidance for preparing datasets, including examples and workflows.
+## [Metadata Tables, Guidance, and Examples](appendices/metadata_tables.md)
+## [Federal Elementary Flow List Detailed Description](appendices/FedEFL_Nomenclature_Highlights.md)
 # Collaboration Server How-to
 # Getting started with the Starter Database
-# Metadata Tables and Guidance
+
 # Publication Workflow descriptions
 # References
 https://www.iso.org/obp/ui/#iso:std:iso:26324:ed-1:v1:en
