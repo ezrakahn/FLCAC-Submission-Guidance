@@ -51,11 +51,8 @@ Data publication on the LCA Commons involves serveral recurring activities class
 
 - Repository manager: the repository manager controls access to the LCA Commons Collaboration Server, including making new repositories, creating user accounts and managing permissions, and making datasets public.	
 
-## Introduction to Preparation of Data for Publication
-The following section presents an introduction to the metadata descriptors and conventions LCA Commons uses to implement ISO 14048 guidance using available conventions where possible.  Datasets are prepared using the openLCA desktop LCA modeling software.  
-
 ## Metadata descriptors and publication conventions
-This section gives an overview on conventions for preparing and documenting data for publication on the LCA Commons. The use of authoritative data elements, such as Elementary Flow names, categories, and impact methods require importing database templates from the www.lcacommons.gov repository.  Creating copies of authoritative elements in openLCA will break links and dependencies with other reference objects or related datasets.
+This section gives an overview on conventions for preparing and documenting data for publication on the LCA Commons.  Datasets are prepared using the openLCA desktop LCA modeling software.   The use of authoritative data elements, such as Elementary Flow names, categories, and impact methods require importing database templates from the www.lcacommons.gov repository.  Creating copies of authoritative elements in openLCA will break links and dependencies with other reference objects or related datasets.
 
 Fields for metadata and LCA descriptors are accessible through the openLCA interface.  Detailed specifications for metadata and instructions for entering them into openLCA can be found in the Appendicies.
 ### Naming Conventions
@@ -143,9 +140,11 @@ With the DOI source created, it can be associated to an openLCA process by addin
 The following appendices provide detailed guidance for preparing datasets, including examples and workflows.
 ## [Metadata Tables, Guidance, and Examples](appendices/metadata_tables.md)
 ## [Federal Elementary Flow List Detailed Description](appendices/FedEFL_Nomenclature_Highlights.md)
-# Collaboration Server How-to
+# [Publishing Data With Collaboration Server](collaboration_server_how_to.md)
+guidance on getting started using the collaboration server
 # Getting started with the Starter Database
 
 # Publication Workflow descriptions
+(not sure if necessary)
 # References
 https://www.iso.org/obp/ui/#iso:std:iso:26324:ed-1:v1:en
