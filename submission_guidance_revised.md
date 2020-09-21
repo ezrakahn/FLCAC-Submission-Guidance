@@ -142,7 +142,8 @@ The following appendices provide detailed guidance for preparing datasets, inclu
 ## [Federal Elementary Flow List Detailed Description](appendices/FedEFL_Nomenclature_Highlights.md)
 # [Publishing Data With Collaboration Server](collaboration_server_how_to.md)
 guidance on getting started using the collaboration server
-# Getting started with the Starter Database
+# Importing Authoritative Datasets with the Starter Database
+# [Publication, Use, and Reuse Licenses](licenses.md)
 
 # Publication Workflow descriptions
 (not sure if necessary)
